@@ -1,0 +1,22 @@
+body, ul {
+    margin: 0;
+}
+header {
+    background-color: darkcyan
+}
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+}
+li > a {
+    color:black;
+    text-decoration: none;
+}
+.abaixo {
+    background-color:darkslategrey;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
