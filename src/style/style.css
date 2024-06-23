@@ -1,8 +1,15 @@
+p, li {
+    font-family: cursive;
+}
+
 body, ul {
     margin: 0;
 }
 header {
     background-color: darkcyan
+}
+.menu > p {
+    justify-self: start;
 }
 .menu {
     display: flex;
@@ -13,6 +20,26 @@ header {
 li > a {
     color:black;
     text-decoration: none;
+}
+.sheets {
+    margin-left: 10px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    display: flex;           
+    max-height: min-content ;
+}
+.pt01 {
+    max-width: min-content;
+    max-height: 400px;
+    display: flexbox;               
+    text-align: left;
+}
+img {
+    filter: blur(1px);
+    border: 1px solid cornflowerblue;
+    height: 300px;
+    width: 250px;
 }
 .abaixo {
     background-color:darkslategrey;
