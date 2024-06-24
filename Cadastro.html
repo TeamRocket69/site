@@ -8,22 +8,32 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <div> 
+    
+     
         <h3>Criar conta</h3>
-        <hr>
-        Seu E-mail <br>
-        <input type="email" placeholder="Coloque seu E-mail" name="Email">
-        <br>
-        Sua senha <br>
-        <input type="password" placeholder="Coloque sua senha">            <br>
-        Confirmação de senha <br>
-        <input type="password" placeholder="Confirme a senha">
+        
+    <div class="criacaodeconta">
+        
+        <div class="email">
+            Seu E-mail <br>
+            <input type="email" placeholder="Coloque seu E-mail" name="Email" required>
+            <br>
+        </div>
+        <div class="senha">
+            <label for="senha">Sua senha</label> <br>
+            <input type="password" placeholder="Coloque sua senha" required>            <br>
+        </div>
+        <div class="confirmarsenha">
+            <label for="confirmarsenha">Confirmação de senha</label> <br>
+            <input type="password" placeholder="Confirme a senha" required>
+        </div>
+
+        <div class="botaocadastrar">
         <button><a href="">Cadastrar</a></button><br>
         <font size="1">Já tem uma conta? Vai para <a href="">login</a></font>  
+        </div>
     </div>
-
-
+    
     
 </body>
 </html>
