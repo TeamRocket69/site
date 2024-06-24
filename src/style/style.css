@@ -1,25 +1,46 @@
-p, li {
-    font-family: cursive;
-}
-
 body, ul {
     margin: 0;
 }
+p, a {
+    font-family: cursive;
+}
+a {
+    color: #017c61;
+    text-decoration: none;
+    font-size: x-large;
+}
+body {
+    background-color:#15a080;
+}
 header {
-    background-color: darkcyan
-}
-.menu > p {
-    justify-self: start;
-}
-.menu {
-    display: flex;
-    align-items: center;
+    min-width: 820px;
+    flex-wrap: wrap;
+    text-wrap: wrap;
+    height: 250px;
+    display: grid;
+    grid-auto-flow: column;
     justify-content: space-around;
+    align-content: center;
+    background-color: #022f25
+}
+.menu01, .menu02 {
+    text-align: center;
+    min-height: 200px;
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-self: center;
     list-style: none;
 }
-li > a {
-    color:black;
-    text-decoration: none;
+.menu01 > a, .menu02 > a {
+    cursor: pointer;
+}
+.menu01 > a:hover {
+    border-bottom: 2px solid black;
+}
+.menu02 > a:hover {
+    border: solid black;
 }
 .sheets {
     margin-left: 10px;
@@ -35,15 +56,26 @@ li > a {
     display: flexbox;               
     text-align: left;
 }
-img {
-    filter: blur(1px);
-    border: 1px solid cornflowerblue;
+.pt01 > a > img:hover {
+    -webkit-transform: scale(1);
+    transform: scale(1.05);
+    box-shadow: 0px 0px 26px 3px rgba(0,0,0,1);
+    -webkit-box-shadow: 0px 0px 26px 3px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 0px 26px 3px rgba(0,0,0,1);
+}
+.pt01 > a > img {
+    transition: all 0.5s;
+    cursor: pointer;
+    filter: blur(0.55px);
+    border: 1px solid darkgreen;
     height: 300px;
     width: 250px;
 }
 .abaixo {
-    background-color:darkslategrey;
+    background-color: black;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     list-style: none;
+    min-height: 100px;
 }
