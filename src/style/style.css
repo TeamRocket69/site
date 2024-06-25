@@ -1,46 +1,58 @@
 body, ul {
     margin: 0;
 }
-p, a {
+.pt01 p, .menu a, .abaixo a {
     font-family: cursive;
 }
-a {
+.menu a, .abaixo a {
     color: #017c61;
     text-decoration: none;
     font-size: x-large;
 }
 body {
-    background-color:#15a080;
+    background-color: mintcream;
+}
+header > a img {
+    margin-left: 30px;
+    justify-self: left;
 }
 header {
+    position: sticky;
+    z-index: 1;
+    top: 0px;
     min-width: 820px;
-    flex-wrap: wrap;
-    text-wrap: wrap;
-    height: 250px;
-    display: grid;
-    grid-auto-flow: column;
-    justify-content: space-around;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
     align-content: center;
     background-color: #022f25
 }
-.menu01, .menu02 {
-    text-align: center;
-    min-height: 200px;
-    min-width: 200px;
+.menu {
+    max-width: 700px;
+    max-height: 100px;
+    margin-right: 24px;
+    justify-content: center;
+    align-items: center;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-self: center;
     list-style: none;
 }
-.menu01 > a, .menu02 > a {
+.menu li {
+    margin-left: 40px;
+}
+.menu > li > a {
     cursor: pointer;
 }
-.menu01 > a:hover {
-    border-bottom: 2px solid black;
+.submenu1:hover{
+    border-bottom: 3px solid black;
 }
-.menu02 > a:hover {
-    border: solid black;
+.submenu2 {
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+.submenu2:hover{
+    background-color:#04aa6d;
+    transition: all 0.2s;
 }
 .sheets {
     margin-left: 10px;
