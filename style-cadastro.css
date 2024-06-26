@@ -2,19 +2,30 @@ body {
     display: flex ;
     align-items: center;
     justify-content: center;
-    padding: 20px;
-    min-width: 100vh;
-    margin-top: 180px;
+    height: 100vh;
+   
+    
+    
+   
+    
     font-size: 30px;
+    font-family: cursive;
     
 }
 
 div.criacaodeconta {
     border: 4px solid black;
     padding: 18px;
+ 
     
 }
 
 h3 {
-    margin: 100px;
+    margin: 25px;
+    
 }
+
+div.botao {
+   
+}
+

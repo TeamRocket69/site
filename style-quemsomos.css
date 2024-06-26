@@ -1,0 +1,69 @@
+body {
+    font-family: cursive;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f4f4f4;
+    
+
+}
+
+
+
+
+
+.logo {
+    width: 90px;
+    height: 50px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.Imagens-textos {
+    filter: grayscale(1);
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    display: inline-flex;
+    margin: 50px;
+    
+}
+
+.Raphael {
+    margin: 50px;
+}
+.JPTudo {
+    margin: 50px;
+}
+.SamTudo {
+    margin: 50px;
+}
+
+* {
+    text-decoration: none;
+}
+.imgrapha {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    
+}
+
+.imgJP {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.imgSam {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.tudo-conteudo {
+    align-items: center;
+    text-align: center;  
+    padding: 67px;
+  
+}
