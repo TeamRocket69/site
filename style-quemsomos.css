@@ -3,13 +3,7 @@ body {
     justify-content: space-around;
     align-items: center;
     background-color: #f4f4f4;
-    
-
 }
-
-
-
-
 
 .logo {
     width: 90px;
@@ -46,6 +40,7 @@ body {
     border-radius: 50%;
     width: 200px;
     height: 200px;
+    filter: grayscale(1);
     
 }
 
@@ -53,12 +48,14 @@ body {
     border-radius: 50%;
     width: 200px;
     height: 200px;
+    filter: grayscale(1);
 }
 
 .imgSam {
     border-radius: 50%;
     width: 200px;
     height: 200px;
+    filter: grayscale(1);
 }
 
 .tudo-conteudo {
@@ -66,4 +63,35 @@ body {
     text-align: center;  
     padding: 67px;
   
+}
+
+.JPConteudo {
+    padding: 100px;
+    margin: 70px;
+    overflow: hidden;
+    background-color: white;
+    margin-right: 150px;
+}
+
+.imgJP2 {
+    border-radius: 50%;
+    width: 215px;
+    height: 215px;
+    filter: grayscale(1);
+}
+
+.JPConteudo img {
+    float: left;
+    margin-right: 50px;
+}
+
+.JPConteudo h3 {
+    display: block;
+    padding-top: 50px;
+    margin-bottom: 1px;
+}
+
+.github {
+    width: 25px;
+    height: 25px;
 }
