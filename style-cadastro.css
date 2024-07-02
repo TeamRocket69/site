@@ -13,13 +13,13 @@ body {
 
 div.criacaodeconta {
     border: 4px solid black;
-    padding: 18px;
+    padding: 15px;
     border-radius: 10px; 
     background-color: #f4f4f4;  
 }
 
 h3 {
-    margin: 25px;
+    margin: 20px;
     
 }
 
@@ -39,8 +39,9 @@ button a {
 input  {
     border-radius: 10px;
     background-color: transparent;
-    padding: 8px 35px;
+    padding: 10px 35px;
     font-size: 14px;
+    text-align: start;
 }
 
 font a {   
