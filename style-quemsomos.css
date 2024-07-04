@@ -13,14 +13,17 @@ body {
     text-align: left;
 }
 
-.Imagens-textos {
+.Imagens-textos{
     filter: grayscale(1);
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     text-align: center;
     display: inline-flex;
     margin: 50px;
-    
+}
+
+.Imagens-textos img {
+    display: inline-block;
 }
 
 .Raphael {
@@ -31,6 +34,10 @@ body {
 }
 .SamTudo {
     margin: 50px;
+}
+
+a:hover{
+    text-decoration: underline;
 }
 
 * {

@@ -15,7 +15,7 @@ div.criacaodeconta {
     border: 4px solid black;
     padding: 15px;
     border-radius: 10px; 
-    background-color: #f4f4f4;  
+    background-color: white;  
 }
 
 h3 {
@@ -29,22 +29,30 @@ button {
     background-color: black;
     cursor: pointer;
     border-radius: 15px;
-   
 }
+
+button:hover{
+    background-color:#474848;
+}
+
 button a {
     text-decoration: none;
     color: #f4f4f4;
 }
 
 input  {
-    border-radius: 10px;
+    border-radius: 15px;
     background-color: transparent;
     padding: 10px 35px;
     font-size: 14px;
-    text-align: start;
+    text-align: ;
 }
 
 font a {   
     text-decoration: none;
     color: black;
+}
+
+input:hover{
+    background-color: rgb(211, 211, 211);
 }
