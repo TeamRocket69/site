@@ -16,6 +16,7 @@ div.criacaodeconta {
     padding: 15px;
     border-radius: 10px; 
     background-color: white;  
+    box-shadow: 8px 5px 5px 1px ;
 }
 
 h3 {
@@ -45,7 +46,7 @@ input  {
     background-color: transparent;
     padding: 10px 35px;
     font-size: 14px;
-    text-align: ;
+    text-align: start;
 }
 
 font a {   
@@ -55,4 +56,8 @@ font a {
 
 input:hover{
     background-color: rgb(211, 211, 211);
+}
+
+#login{
+    margin-right: 5px;
 }
