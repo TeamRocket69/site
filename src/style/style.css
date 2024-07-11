@@ -1,10 +1,10 @@
 body, ul {
     margin: 0;
 }
-.pt01 p, .menu a, footer a {
+.partitura p, .menu a, footer a {
     font-family: cursive;
 }
-.content, h2 {
+.content, h2, .container {
     font-size: x-large;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -28,7 +28,7 @@ header {
     position: sticky;
     z-index: 1;
     top: 0px;
-    min-width: 820px;
+    min-width: 950px;
     height: 80px;
     display: flex;
     justify-content: space-between;
@@ -62,7 +62,7 @@ header {
     background-color:#04aa6d;
     transition: all 0.2s;
 }
-.sheets {
+.partituras {
     margin-left: 10px;
     margin-top: 50px;
     flex-wrap: wrap;
@@ -71,21 +71,21 @@ header {
     max-height: min-content;
     height: 100%;
 }
-.pt01 {
+.partitura {
     margin-left: 10px;
     max-width: min-content;
     max-height: 400px;
     display: flexbox;               
     text-align: left;
 }
-.pt01 > a > img:hover {
+.partitura > img:hover {
     -webkit-transform: scale(1);
     transform: scale(1.05);
     box-shadow: 0px 0px 26px 3px rgba(0,0,0,1);
     -webkit-box-shadow: 0px 0px 26px 3px rgba(0,0,0,1);
     -moz-box-shadow: 0px 0px 26px 3px rgba(0,0,0,1);
 }
-.pt01 > a > img {
+.partitura > img {
     transition: all 0.5s;
     cursor: pointer;
     filter: blur(0.55px);
@@ -100,11 +100,57 @@ footer {
     align-items: top;
     list-style: none;
     min-height: 100px;
-    min-width: 820px;
+    min-width: 950px;
     width: 100%;
     position: absolute;
     height: 100%;
 }
 footer > li {
     margin-top: 30px;
+}
+.title {
+    margin-top: 50px;
+}
+.container {
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.container img {
+    border: 1px solid darkgreen;
+    border: 1px solid darkgreen;
+    height: 690px;
+    width: 550px;
+}
+.partitura-detalhes {
+    padding-left: 20px;
+}
+.title {
+    margin-bottom: 30px;
+}
+.container {
+    margin-top: 150px;
+    list-style: none;
+}
+.partitura-detalhes h2{
+    margin-bottom: 50px;
+}
+.container li {
+    margin-top: 20px;
+}
+.container .button {
+    text-decoration: none;
+    color: white;
+}
+.container center li {
+    margin-top: 60px;
+}
+.container .button {
+    padding: 16px 42px;
+    border-radius: 3px;
+    border: none;
+    background-color: #017c61;
+    font-size: large;
+    box-shadow: 0px 0px 12px -2px rgba(0,0,0,0.5);
+    
 }

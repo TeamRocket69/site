@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalhes</title>
+    <link rel="stylesheet" href="src/style/style.css">
+    <link rel="icon" href="src/imagens/logobranca.png">
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="src/imagens/logotipo.png" alt="logotipo" height="80px" width="230px"></a>
+        <ul class="menu">
+            <li><a href=""class="submenu1">Lista de Partituras</a></li>
+            <li><a href="" class="submenu1">Mais Acessadas</a></li>
+            <li class="submenu2"><a href="">Sign in</a></li>
+            <li class="submenu2"><a href="">Login</a></li>
+        </ul>
+    </header>
+    <div class="container">
+        <div id="image"></div>
+        <div id="partitura-detalhes" class="partitura-detalhes"></div>
+    </div>
+    <footer>
+        <li><a href="">Contatos</a></li>
+        <li><a href="">Quem Somos</a></li>
+    </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const productId = urlParams.get('id');
+
+            const productDetails = {
+                Sweden: {
+                    name: 'Minecraft - Sweden',
+                    image: 'src/partituras/Minecraft-Sweden.png',
+                    difficulty: 'Nível de dificuldade: Iniciante',
+                    pages: 'Páginas: 1',
+                    duration: 'Duração: 02:05',
+                    key: 'Tonalidade: D, Bm',
+                    genre: 'Gênero: Clássico',
+                    link: 'https://youtu.be/aBkTkxKDduc?si=VS7R9ybn_rx8bqjO',
+                    file: 'src/partituras/Minecraft-Sweden.pdf'
+                },
+                UnderGroundTheme: {
+                    name: 'Super Mario Bros. - Underground Theme',
+                    image: 'src/partituras/SuperMarioBros-UnderGroundTheme.png',
+                    difficulty: 'Nível de dificuldade: Iniciante',
+                    pages: 'Páginas: 1',
+                    duration: 'Duração: 00:25',
+                    key: 'Tonalidade: C, Am',
+                    genre: 'Gênero: Trilha Sonora',
+                    link: 'https://youtu.be/c0SuIMUoShI?si=2rxW3FOjqI7r8sFt',
+                    file: 'src/partituras/SuperMarioBros-UnderGroundTheme.pdf'
+                },
+                Megalovania: {
+                    name: 'Undertale - Megalovania',
+                    image: 'src/partituras/Undertale-Megalovania.png',
+                    difficulty: 'Nível de dificuldade: Intermediário',
+                    pages: 'Páginas: 5',
+                    duration: 'Duração: 02:42',
+                    key: 'Tonalidade: F, Dm',
+                    genre: 'Gênero: Trilha Sonora',
+                    link: 'https://youtu.be/wDgQdr8ZkTw?si=OMy2m_rfBiv19igR',
+                    file: 'src/partituras/Undertale-Megalovania.pdf'
+                },
+                TromboneFanfare: {
+                    name: 'Sonic Boom - Trombone Fanfare',
+                    image: 'src/partituras/SonicBoom-TromboneFanfare.png',
+                    difficulty: 'Nível de dificuldade: ',
+                    pages: 'Páginas: 2',
+                    duration: 'Duração: 01:08',
+                    key: 'Tonalidade: C, Am',
+                    genre: 'Gênero: Trilha Sonora',
+                    link: 'https://youtu.be/NW-cQXEOgmc?si=iyGFIHCwd16lukoF',
+                    file: 'src/partituras/SonicBoom-TromboneFanfare.pdf'
+                },
+                LittlerootTown: {
+                    name: 'Pokémon - Littleroot Town',
+                    image: 'src/partituras/Pokemon-Littleroot-Town.png',
+                    difficulty: 'Nível de dificuldade: Intermediário',
+                    pages: 'Páginas: 3',
+                    duration: 'Duração: 02:07',
+                    key: 'Tonalidade: F, Dm',
+                    genre: 'Gênero: Trilha Sonora',
+                    link: 'https://youtu.be/im6tbN9SZXs?si=tqTCN7ZX9wqM5HkX',
+                    file: 'src/partituras/Pokemon-Littleroot-Town.pdf'
+                },
+                WetHands: {
+                    name: 'Minecraft - Wet Hands',
+                    image: 'src/partituras/Minecraft-WetHands.png',
+                    difficulty: 'Nível de dificuldade: Iniciante',
+                    pages: 'Páginas: 1',
+                    duration: 'Duração: 01:31',
+                    key: 'Tonalidade: A, F#m',
+                    genre: 'Gênero: Clássico',
+                    link: 'https://youtu.be/MSepOYJxB64?si=FOiitUBbxQxj5sYE',
+                    file: 'src/partituras/Minecraft-WetHands.pdf'
+                },
+                FallenDown: {
+                    name: 'Undertale - FallenDown',
+                    image: 'src/partituras/Undertale-FallenDown.png',
+                    difficulty: 'Nível de dificuldade: Intermediário',
+                    pages: 'Páginas: 3',
+                    duration: 'Duração: 02:42',
+                    key: 'Tonalidade: D, Bm',
+                    genre: 'Gênero: Trilha Sonora',
+                    link: 'https://youtu.be/cGBMTAGzWPs?si=oeXdy-9RbsfoA-6T',
+                    file: 'src/partituras/Undertale-FallenDown.pdf'
+                },
+                TetrisTheme: {
+                    name: 'Tetris Theme',
+                    image: 'src/partituras/Tetris-Theme.png',
+                    difficulty: 'Nível de dificuldade: Intermediário',
+                    pages: 'Páginas: 2',
+                    duration: 'Duração: 01:36',
+                    key: 'Tonalidade: C, Am',
+                    genre: 'Gênero: Trilha Sonora',
+                    link: 'https://youtu.be/NmCCQxVBfyM?si=goeyCj2EaKm0uIAU',
+                    file: 'src/partituras/Tetris-Theme.pdf'
+                },
+                EliteFourTheme: {
+                    name: 'Pokémon Ruby, Sapphire & Emerald - Elite Four Theme',
+                    image: 'src/partituras/Pokemon-RSE-Elite-Four-Theme.png',
+                    difficulty: 'Nível de dificuldade: Intermediário',
+                    pages: 'Páginas: 3',
+                    duration: 'Duração: 01:53',
+                    key: 'Tonalidade: Bb, Gm',
+                    genre: 'Gênero: Trilha Sonora',
+                    link: 'https://youtu.be/h92NII_daio?si=-ekzgvrWclns0zvd',
+                    file: 'src/partituras/Pokemon-RSE-Elite-Four-Theme.pdf'
+                },
+                TheGreatFairyMountain: {
+                    name: "The Legend of Zelda: Twilight Princess - The Great Fairy's Fountain",
+                    image: 'src/partituras/TheLegendofZelda-TheGreatFairyFountain.png',
+                    difficulty: 'Nível de dificuldade: Intermediário',
+                    pages: 'Páginas: 1',
+                    duration: 'Duração: 00:50',
+                    key: 'Tonalidade: Bb, Gm',
+                    genre: 'Gênero: Trilha Sonora',
+                    link: 'https://youtu.be/OdfqvsdSOuI?si=N43-18pfnqu0k7dC',
+                    file: 'src/partituras/TheLegendofZelda-TheGreatFairyFountain.pdf'
+                },
+                BattleMusic: {
+                    name: 'Pokémon Red, Blue & Yellow - Trainer Battle Music',
+                    image: 'src/partituras/Pokemon-RBY-Battle-Music.png',
+                    difficulty: 'Nível de dificuldade: Intermediário',
+                    pages: 'Páginas: 5',
+                    duration: 'Duração: 02:51',
+                    key: 'Tonalidade: C, Am',
+                    genre: 'Gênero: Trilha Sonora',
+                    link: 'https://youtu.be/Fupfr_eVLPo?si=K7adBleJ8EjZ59Nt',
+                    file: 'src/partituras/Pokemon-RBY-Battle-Music.pdf'
+                },
+                GreenHillZone: {
+                    name: 'Sonic The Hedgehog - Green Hill Zone',
+                    image: 'src/partituras/SonicTheHedgehog-GreenHillZone.png',
+                    difficulty: 'Nível de dificuldade: Iniciante',
+                    pages: 'Páginas: 2',
+                    duration: 'Duração: 00:54',
+                    key: 'Tonalidade: C, Am',
+                    genre: 'Gênero: Trilha Sonora',
+                    link: 'https://youtu.be/G-i8HYi1QH0?si=ldAdhCKz95qRlkx3',
+                    file: 'src/partituras/SonicTheHedgehog-GreenHillZone.pdf'
+                },
+                FileCityTheme: {
+                    name: 'Digimon World - File City day and night Theme',
+                    image: 'src/partituras/DigimonWorld-FileCityTheme.png',
+                    difficulty: 'Nível de dificuldade: Intermediário',
+                    pages: 'Páginas: 3',
+                    duration: 'Duração: 06:28',
+                    key: 'Tonalidade: A, F#m',
+                    genre: 'Gênero: Trilha sonora',
+                    link: 'https://youtu.be/erU86ZT8z4I?si=zMGGkzMduIjyWf4f https://youtu.be/TtZifR4xQyw?si=IlYO4q1bdtn19vnd',
+                    file: 'src/partituras/DigimonWorld-FileCityTheme.pdf'
+                },
+                SubwooferLullaby: {
+                    name: 'Minecraft - Subwoofer Lullaby',
+                    image: 'src/partituras/Minecraft-SubwooferLullaby.png',
+                    difficulty: 'Nível de dificuldade: Iniciante',
+                    pages: 'Páginas: 2',
+                    duration: 'Duração: 03:09',
+                    key: 'Tonalidade: C, Am',
+                    genre: 'Gênero: Clássico',
+                    link: 'https://youtu.be/Gpd85y_iTxY?si=Cw1LyhNLFouWt1Dj',
+                    file: 'src/partituras/Minecraft-SubwooferLullaby.pdf'
+                },
+                TitleTheme: {
+                    name: 'Pokémon Red & Blue - Title Theme',
+                    image: 'src/partituras/Pokemon-RB-Title-Theme.png',
+                    difficulty: 'Nível de dificuldade: Intermediário',
+                    pages: 'Páginas: 1',
+                    duration: 'Duração: 01:00',
+                    key: 'Tonalidade: C, Am',
+                    genre: 'Gênero: Trilha sonora',
+                    link: 'https://youtu.be/NdJQopRuH1E?si=wvMppxfw_5rMIEIQ',
+                    file: 'src/partituras/Pokemon-RB-Title-Theme.pdf'
+                },
+                Butterfly: {
+                    name: 'Digimon World - Butterfly',
+                    image: 'src/partituras/DigimonWorld-Butterfly.png',
+                    difficulty: 'Nível de dificuldade: Iniciante',
+                    pages: 'Páginas: 5',
+                    duration: 'Duração: 04:04',
+                    key: 'Tonalidade: E, C#m',
+                    genre: 'Gênero: Trilha Sonora',
+                    link: 'https://youtu.be/MuhkUzGAeHA?si=J6ZKU11Wkax_LXZW',
+                    file: 'src/partituras/DigimonWorld-Butterfly.pdf'
+                },
+                GrannyTheme: {
+                    name: 'Granny Theme',
+                    image: 'src/partituras/',
+                    difficulty: 'Nível de dificuldade: Iniciante',
+                    pages: 'Páginas: 2',
+                    duration: 'Duração: 01:12',
+                    key: 'Tonalidade: C, Am',
+                    genre: 'Gênero: Trilha Sonora',
+                    link: 'https://youtu.be/EJ5h5vLEbqI?si=lJ9W5PIbhqikcowx',
+                    file: 'src/partituras/GrannyTheme.pdf'
+                },
+                GymTheme: {
+                    name: 'Pokémon - Gym Theme',
+                    image: 'src/partituras/Pokemon-Gym-Theme.png',
+                    difficulty: 'Nível de dificuldade: Iniciante',
+                    pages: 'Páginas: 1',
+                    duration: 'Duração: 01:14 ',
+                    key: 'Tonalidade: F, Dm',
+                    genre: 'Gênero: Trilha sonora',
+                    link: 'https://youtu.be/biLeC5D4S48?si=NUd4v2l9CYjQ_OU_',
+                    file: 'src/partituras/Pokemon-Gym-Theme.pdf'
+                },
+                LavenderTown: {
+                    name: 'Pokémon - Lavender Town',
+                    image: 'src/partituras/Pokemon-Lavender-Town.png',
+                    difficulty: 'Nível de dificuldade: Iniciante',
+                    pages: 'Páginas: 1',
+                    duration: 'Duração: 01:28',
+                    key: 'Tonalidade: C, Am',
+                    genre: 'Gênero: Trilha sonora',
+                    link: 'https://youtu.be/JNJJ-QkZ8cM?si=f6vUuMxBe5Bk9PSy',
+                    file: 'src/partituras/Pokemon-Lavender-Town.pdf'
+                },
+                Route1: {
+                    name: 'Pokémon - Route 1',
+                    image: 'src/partituras/Pokemon-Route1.png',
+                    difficulty: 'Nível de dificuldade: Intermediário',
+                    pages: 'Páginas: 2',
+                    duration: 'Duração: 00:46',
+                    key: 'Tonalidade: D, Bm',
+                    genre: 'Gênero: Trilha sonora',
+                    link: 'https://youtu.be/u0G12EBW4KY?si=XG0p21ojD0pI1aUI',
+                    file: 'src/partituras/Pokemon-Route1.pdf'
+                },
+                PokemonTheme: {
+                    name: 'Pokemon Theme',
+                    image: 'src/partituras/Pokemon-Theme.png',
+                    difficulty: 'Nível de dificuldade: Intermediário',
+                    pages: 'Páginas: 4',
+                    duration: 'Duração: 02:56',
+                    key: 'Tonalidade: Bb, Gm',
+                    genre: 'Gênero: Rock, Trilha sonora',
+                    link: 'https://youtu.be/fCkeLBGSINs?si=EjgS0oV4ts2QIoBQ',
+                    file: 'src/partituras/Pokemon-Theme.pdf'
+                },
+                JetPou: {
+                    name: 'JetPou',
+                    image: 'src/partituras/Pou-JetPou.png',
+                    difficulty: 'Nível de dificuldade: Iniciante',
+                    pages: 'Páginas: 1',
+                    duration: 'Duração: 01:17',
+                    key: 'Tonalidade: C, Am',
+                    genre: 'Gênero: Experimental',
+                    link: 'https://youtu.be/oWvHNQhPLUY?si=njPjkFnZRxjqjOSs',
+                    file: 'src/partituras/Pou-JetPou.pdf'
+                },
+                SkyJump: {
+                    name: 'SkyJump',
+                    image: 'src/partituras/Pou-SkyJump.png',
+                    difficulty: 'Nível de dificuldade: Iniciante',
+                    pages: 'Páginas: 1',
+                    duration: 'Duração: 00:33',
+                    key: 'Tonalidade: A, F#m',
+                    genre: 'Gênero: Clássico',
+                    link: 'https://youtu.be/6sUE15ocU9E?si=8JU5u5Z1k8rAT-QO',
+                    file: 'src/partituras/Pou-SkyJump.pdf'
+                },
+                SuperMarioBrosMainTheme: {
+                    name: 'Super Mario Bros. - Main Theme',
+                    image: 'src/partituras/SuperMarioBros-MainTheme.png',
+                    difficulty: 'Nível de dificuldade: Intermediário',
+                    pages: 'Páginas: 2',
+                    duration: 'Duração: 01:53',
+                    key: 'Tonalidade: C, Am',
+                    genre: 'Gênero: Trilha Sonora',
+                    link: 'https://youtu.be/NTa6Xbzfq1U?si=DScfPZfXjymdxNi0',
+                    file: 'src/partituras/SuperMarioBros-MainTheme.pdf'
+                },
+                BreathoftheWild: {
+                    name: "The Legend of Zelda: Breath of the Wild - Kass' Theme",
+                    image: 'src/partituras/TheLegendofZelda-Breathofthewild-KassTheme.png',
+                    difficulty: 'Nível de dificuldade: Intermediário',
+                    pages: 'Páginas: 2',
+                    duration: 'Duração: 01:45',
+                    key: 'Tonalidade: C, Am',
+                    genre: 'Gênero: Trilha sonora',
+                    link: 'https://youtu.be/XrvZrBCR6-A?si=V9yGGKpbS5WLBt2o',
+                    file: 'src/partituras/TheLegendofZelda-Breathofthewild-KassTheme.pdf'
+                },
+                TheLegendofZeldaMainTheme: {
+                    name: 'The Legend of Zelda - Main Theme',
+                    image: 'src/partituras/TheLegendofZelda-MainTheme.png',
+                    difficulty: 'Nível de dificuldade: Iniciante',
+                    pages: 'Páginas: 1',
+                    duration: 'Duração: 01:21',
+                    key: 'Tonalidade: C, Am',
+                    genre: 'Gênero: Trilha sonora',
+                    link: 'https://youtu.be/cGufy1PAeTU?si=hwElRPtRBTHHHcHR',
+                    file: 'src/partituras/TheLegendofZelda-MainTheme.pdf'
+                },
+                ZeldasLullaby: {
+                    name: "The Legend of Zelda: Ocarina of Time - Zelda's Lullaby",
+                    image: 'src/partituras/TheLegendofZelda-ZeldasLullaby(OcarinaofTime).png',
+                    difficulty: 'Nível de dificuldade: Iniciante',
+                    pages: 'Páginas: 1',
+                    duration: 'Duração: 00:43',
+                    key: 'Tonalidade: G, Em',
+                    genre: 'Gênero: Trilha sonora',
+                    link: 'https://youtu.be/EPhfbtjqWM8?si=3fYc5x5iTLLMAbIQ',
+                    file: 'src/partituras/TheLegendofZelda-ZeldasLullaby(OcarinaofTime).pdf'
+                },
+                Home: {
+                    name: 'Home',
+                    image: 'src/partituras/Undertale-Home.png',
+                    difficulty: 'Nível de dificuldade: Iniciante',
+                    pages: 'Páginas: 2',
+                    duration: 'Duração: 04:01',
+                    key: 'Tonalidade: A, F#m',
+                    genre: 'Gênero: Trilha sonora',
+                    link: 'https://youtu.be/5_E_y1AWAfc?si=aydbOL0-fihb4nGK',
+                    file: 'src/partituras/Undertale-Home.pdf'
+                },
+                SpiderDance: {
+                    name: 'SpiderDance',
+                    image: 'src/partituras/Undertale-SpiderDance.png',
+                    difficulty: 'Nível de dificuldade: Intermediário',
+                    pages: 'Páginas: 4',
+                    duration: 'Duração: 01:45',
+                    key: 'Tonalidade: Ab, Fm',
+                    genre: 'Gênero: Trilha sonora',
+                    link: 'https://youtu.be/YZ3XjVVNagU?si=uPP2tf4scyCrq4Tk',
+                    file: 'src/partituras/Undertale-SpiderDance.pdf'
+                }
+            };
+
+            const product = productDetails[productId];
+
+            if (product) {
+                document.getElementById('partitura-detalhes').innerHTML = `
+                    <center><h2>${product.name}</h2></center>
+                    <li>${product.difficulty}</li>
+                    <li>${product.pages}</li>
+                    <li>${product.duration}</li>
+                    <li>${product.key}</li>
+                    <li>${product.genre}</li>
+                    <li>Link (YouTube): <a href="${product.link}" target="blank">${product.link}</a></li>
+                    <center><li><a href="${product.file}" class="button" download="${product.name}">Download</a></li></center>
+    
+                `;
+                document.getElementById('image').innerHTML = `
+                <img src ="${product.image}" alt="${product.name}"></img>
+                `;
+            } else {
+                document.getElementById('partitura-detalhes').innerHTML = '<p>Partitura não encontrada :/</p>';
+            }
+        });
+    </script>
+</body>
+</html>
