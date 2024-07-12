@@ -8,9 +8,19 @@ body, ul {
     font-size: x-large;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 300%;
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
 .content {
+    max-width: 900px;
     margin-top: 60px;
-    margin-left: 50px;
+    margin-left: 70px;
+}
+.content p, h2 {
+    line-height: 35px;
 }
 .menu a, footer a {
     color: #017c61;
@@ -65,6 +75,7 @@ header {
 .partituras {
     margin-left: 10px;
     margin-top: 50px;
+    margin-bottom: 100px;
     flex-wrap: wrap;
     justify-content: space-evenly;
     display: flex;           
