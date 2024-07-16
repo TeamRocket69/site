@@ -8,7 +8,7 @@ body {
 }
 
 header {
-    background: #333;
+    background: #022f25;
     color: #fff;
     padding: 20px 0;
     text-align: center;
@@ -42,7 +42,7 @@ input[type="text"], input[type="email"], input[type="tel"], textarea {
 
 button {
     display: inline-block;
-    background: #333;
+    background: #017c61;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -52,7 +52,7 @@ button {
 }
 
 button:hover {
-    background: #555;
+    background: #022f25;
 }
 
 .map iframe {
@@ -72,14 +72,14 @@ button:hover {
 }
 
 .social-media a:hover {
-    background: #333;
+    background:#022f25;
     color: #fff;
 }
 
 footer {
     text-align: center;
     padding: 10px 0;
-    background: #333;
+    background: #031914;
     color: #fff;
 }
 

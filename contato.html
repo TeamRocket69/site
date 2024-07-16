@@ -15,9 +15,9 @@
     
     <section class="contact-info">
         <h2>Informações de Contato</h2>
-        <p>Endereço: Rua Exemplo, 123, Cidade, Estado</p>
-        <p>Telefone: (11) 1234-5678</p>
-        <p>Email: contato@empresa.com</p>
+        <p>Endereço: R. São Joaquim da Barra, Campinas - SP</p>
+        <p>Telefone: (11) 4002-8922</p>
+        <p>Email: teamrocket.partituras@empresa.com</p>
         <p>Horário de Funcionamento: Segunda a Sexta, das 9h às 18h</p>
     </section>
     
@@ -36,19 +36,25 @@
             <label for="message">Mensagem:</label>
             <textarea id="message" name="message" required></textarea>
             
-            <button type="submit">Enviar</button>
+            <button type="button" onclick="msgRecebida()">Enviar</button>
         </form>
     </section>
     <section class="social-media">
         <h2>Siga-nos nas Redes Sociais</h2>
-        <a href="https://www.facebook.com/empresa" target="_blank">Facebook</a>
-        <a href="https://www.instagram.com/empresa" target="_blank">Instagram</a>
-        <a href="https://www.linkedin.com/company/empresa" target="_blank">LinkedIn</a>
+        <a href="https://www.facebook.com" target="_blank">Facebook</a>
+        <a href="https://www.instagram.com" target="_blank">Instagram</a>
+        <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
     </section>
     
     <footer>
         <p><a href="politica-privacidade.html">Política de Privacidade</a> | <a href="termos-uso.html">Termos de Uso</a></p>
         <p>&copy; 2024 Empresa. Todos os direitos reservados.</p>
     </footer>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script>
+        function msgRecebida(){
+            swal("Mensagem Recebida!", "Retornaremos assim que possível ;)", "success");
+        }
+    </script>
 </body>
 </html>
