@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mais Acessadas</title><link rel="stylesheet" href="regraspartituras.css">
+    <link rel="stylesheet" href="src/style/style.css">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="icon" href="imagens/logobranca.png">
+    <script src="buscar.js" defer></script>    
+    </head>
+    <body>
+    <!-- Cabeçalho -->
+    <header>
+        <a href="index.html"><img src="imagens/logotipo.png" alt="logotipo" height="80px" width="230px"></a>
+        <ul class="menu">
+            <li><a href="pagina-mais-acessadas.html" class="submenu1">Lista de Partituras</a></li>
+            <li><a href="mais-acessadas.html" target="_self" class="submenu1">Mais Acessadas</a></li>
+            <li class="submenu2"><a href="">Sign in</a></li>
+            <li class="submenu2"><a href="login.html">Login</a></li>
+        </ul>
+    </header>
+
+    <!-- Barra de pesquisa -->
+    <div class="buscar-box">
+        <div class="lupa-box">
+            <i class="bi bi-search"></i>
+        </div>
+
+        <div class="input-buscar">
+            <input type="text" placeholder="Pesquise sua partitura">
+        </div>
+    </div>
+
+<!-- Mensagem de erro -->
+
+<p id="not-found-message" style="display: none;">Partitura não encontrada :/
+
+
+    
+    <!-- Listagem -->
+    <h1 class="Lista">Catálogo de Partituras</h1>
+
+    <p id="not-found-message" style="display: none;">Partitura não encontrada :/ </p>
+
+
+    <ul id="partitura-list">
+        
+
+       
+        <li onclick="showDetails('Sweden')">Minecraft - Sweden </li> 
+        <li onclick="showDetails('UnderGroundTheme')">Super Mario Bros. - Underground Theme </li>
+        <li onclick="showDetails('TromboneFanfare')"> Sonic Boom - Trobone Fanfare </li> 
+        <li onclick="showDetails('WetHands')"> Minecraft - WetHands </li> 
+        <li onclick="showDetails('LittlerootTown')">Pokémon Ruby, Sapphire & Emerald - Littleroot Town </li> 
+        <li onclick="showDetails('Butterfly')">DigimonWorld - Butterfly </li> 
+        <li onclick="showDetails('BattleMusic')">Pokémon Red, Blue & Yellow - Trainer Battle Music</li> 
+        <li onclick="showDetails('BreathoftheWild')">The Legend of Zelda: Breath of the Wild - Kass' Theme</li>
+        <li onclick="showDetails('EliteFourTheme')">Pokémon Ruby, Sapphire & Emerald - Elite Four Theme</li>
+        <li onclick="showDetails('FileCityTheme')">Digimon World - File City day and night Theme</li>
+        <li onclick="showDetails('FallenDown')">Undertale - Megalovania</li>
+        <li onclick="showDetails('GreenHillZone')">Sonic The Hedgehog - Green Hill Zone </li>
+        <li onclick="showDetails('GrannyTheme')">Granny Theme</li>
+        <li onclick="showDetails('GymTheme')">Pokémon - Gym Theme</li>
+        <li onclick="showDetails('Home')">Undertale - Home</li>
+        <li onclick="showDetails('JetPou')">Pou JetPou</li>
+        <li onclick="showDetails('LavenderTown')">Pokémon - Lavender Town</li>
+        <li onclick="showDetails('LittlerootTown')">Pokémon Ruby, Sapphire & Emerald - Littleroot Town</li>
+        <li onclick="showDetails('Megalovania')">Undertale Megalovania</li>
+        <li onclick="showDetails('PokemonTheme')">Pokémon Theme</li>
+        <li onclick="showDetails('Route1')">Pokémon - Route 1</li>
+        <li onclick="showDetails('SkyJump')">SkyJump</li>
+        <li onclick="showDetails('SpiderDance')">Undertale - Spider Dance</li>
+        <li onclick="showDetails('SubwooferLullaby')">Minecraft - Subwoofer Lullaby</li>
+        <li onclick="showDetails('SuperMarioBrosMainTheme')">Super Mario Bros. - Main Theme</li>
+        <li onclick="showDetails('TetrisTheme')">Tetris Theme</li>
+        <li onclick="showDetails('TheGreatFairyFountain')">The Legend of Zelda: Twilight Princess - The Great Fairy's Fountain</li>
+        <li onclick="showDetails('TheLegendofZeldaMainTheme')">The Legend of Zelda - Main Theme</li>
+        <li onclick="showDetails('TitleTheme')">Pokémon Red & Blue - Title Theme</li>
+        <li onclick="showDetails('UnderGroundTheme')">Super Mario Bros UnderGround-Theme</li>
+        <li onclick="showDetails('WetHands')">Minecraft - Wet Hands</li>
+        <li onclick="showDetails('ZeldasLullaby')">The Legend of Zelda: Ocarina of Time - Zelda's Lullaby</li>
+        
+    </ul>
+
+        
+
+    <!-- Rodapé -->
+    <div class="container">
+        <div id="image"></div>
+        <div id="partitura-detalhes" class="partitura-detalhes"></div>
+    </div>
+    <div class="description" id="description"></div>
+    <footer>
+        <li><a href="contato.html">Contatos</a></li>
+        <li><a href="">Quem Somos</a></li>
+    </footer>
+
+
+
+    <!-- JS -->
+
+
+    <script>
+        function showDetails(id) {
+            window.location.href = `detalhes.html?id=${id}`;
+        }
+    </script>
+</body>
+</html>
