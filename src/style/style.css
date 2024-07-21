@@ -10,14 +10,15 @@ body, ul {
 }
 h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 300%;
     margin-top: 80px;
     margin-bottom: 10px;
+    font-size: 60px;
+    text-align: center;
 }
 .content {
     max-width: 900px;
     margin-top: 60px;
-    margin-left: 70px;
+    margin-left: 80px;
 }
 .content p, h2, .description {
     line-height: 35px;
