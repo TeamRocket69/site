@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>As mais acessadas</title>
+    
+    <link rel="stylesheet" href="src/style/acessadas.css">
+    <link rel="stylesheet" href="src/style/style.css">
+    <link rel="icon" href="imagens/logobranca.png">
+    
+</head>
+<!-- Cabeçalho -->
+<header>
+    <a href="index.html"><img src="src/imagens/logotipo.png" alt="logotipo" height="80px" width="230px"></a>
+    <ul class="menu">
+        <li><a href="pagina-de-partituras.html" class="submenu1">Lista de Partituras</a></li>
+        <li><a href="mais-acessadas.html" target="_self" class="submenu1">Mais Acessadas</a></li>
+        <li class="submenu2"><a href="">Sign in</a></li>
+        <li class="submenu2"><a href="login.html">Login</a></li>
+    </ul>
+</header>
+
+<body>
+
+    <main>
+        <h1>Mais acessadas!</h1>
+
+        <p id="textinho">As partituras de jogos são uma parte fundamental da experiência gamer, muitas vezes evocando sentimentos profundos e nostalgia.
+           Entre as partituras mais acessadas, encontramos temas icônicos que marcaram a infância de muitos jogadores.
+           Essas melodias não apenas ajudam a criar a atmosfera dos jogos, mas também têm o poder de transportar os jogadores de volta a momentos especiais.
+           A popularidade dessas partituras reflete o impacto duradouro da música nos jogos, conectando-os emocionalmente aos momentos que viveram e às aventuras que vivenciaram.</p>
+    
+        <div class="partituras">
+            <div class="partitura" data-id="SuperMarioBrosMainTheme">
+                <span class="ranque"><i class="bi bi-1-circle-fill"></i></span>
+                <img src="partituras/SuperMarioBros-MainTheme.png" alt="Super Mario Bros. - Main Theme">
+                <p>Super Mario Bros. - Underground Theme</p>
+            </div>
+    
+            <div class="partitura" data-id="TheLegendofZeldaMainTheme">
+                <span class="ranque"><i class="bi bi-2-circle-fill"></i></span>
+                <img src="partituras/TheLegendofZelda-MainTheme.png" alt="The Legend of Zelda - Main Theme">
+                <p>The Legend of Zelda - Main Theme</p>
+            </div>
+    
+            <div class="partitura" data-id="Sweden">
+                <span class="ranque"><i class="bi bi-3-circle-fill"></i></span>
+                <img src="partituras/Minecraft-Sweden.png" alt="Minecraft - Sweden">
+                <p>Minecraft - Sweden</p>
+            </div>
+    
+            <div class="partitura" data-id="Megalovania">
+                <span class="ranque"><i class="bi bi-4-circle-fill"></i></span>
+                <img src="partituras/Undertale-Megalovania.png" alt="Undertale - Megalovania">
+                <p>Undertale - Megalovania</p>
+            </div>
+    
+            <div class="partitura" data-id="TetrisTheme">
+                <span class="ranque"><i class="bi bi-5-circle-fill"></i></span>
+                <img src="partituras/Tetris-Theme.png" alt="Tetris Theme">
+                <p>Tetris Theme</p>
+            </div>
+    
+            <div class="partitura" data-id="BreathoftheWild">
+                <span class="ranque"><i class="bi bi-6-circle-fill"></i></span>
+                <img src="partituras/Undertale-FallenDown.png" alt="The Legend of Zelda: Breath of the Wild - Kass' Theme">
+                <p>The Legend of Zelda: Breath of the Wild - Kass' Theme</p>
+            </div>
+    
+            <div class="partitura" data-id="GreenHillZone">
+                <span class="ranque"><i class="bi bi-7-circle-fill"></i></span>
+                <img src="partituras/SonicTheHedgehog-GreenHillZone.png" alt="Sonic The Hedgehog - Green Hill Zone">
+                <p>Sonic The Hedgehog - Green Hill Zone</p>
+            </div>
+    
+            <div class="partitura" data-id="GymTheme">
+                <span class="ranque"><i class="bi bi-8-circle-fill"></i></span>
+                <img src="partituras/Pokemon-Gym-Theme.png" alt="Pokémon - Gym Theme">
+                <p>Pokémon - Gym Theme</p>
+            </div>
+    
+            <div class="partitura" data-id="SpiderDance">
+                <span class="ranque"><i class="bi bi-9-circle-fill"></i></span>
+                <img src="partituras/Undertale-SpiderDance.png" alt="Undertale - Spider Dance">
+                <p>Undertale - Spider Dance</p>
+            </div>
+    
+            <div class="partitura" data-id="EliteFourTheme">
+                <span class="ranque"><i class="bi bi-1-circle-fill"></i> <i class="bi bi-0-circle-fill"></i></span>
+                <img src="partituras/Pokemon-RSE-Elite-Four-Theme.png" alt="Pokémon RSE - Elite Four Theme">
+                <p>Pokémon Ruby, Sapphire & Emerald - Elite Four Theme</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <li><a href="contato.html">Contato</a></li>
+        <li><a href="">Quem Somos</a></li>
+    </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const products = document.querySelectorAll('.partitura');
+
+            products.forEach(product => {
+                product.addEventListener('click', function() {
+                    const productId = this.getAttribute('data-id');
+                    window.location.href = `detalhes.html?id=${productId}`;
+                });
+            });
+        });
+    </script>
+
+    <!-- 
+       __
+      /oo\
+     |    |
+ ^^  (vvvv)   ^^
+ \\  /\__/\  //
+  \\/      \//
+   /        \        
+  |          |    ^  
+  /          \___/ | 
+ (            )     |
+  \----------/     /
+    //    \\_____/
+   W       W
+
+
+    -->
+
+</body>
+</html>
