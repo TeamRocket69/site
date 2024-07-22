@@ -1,0 +1,104 @@
+body {
+    font-family: cursive;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f4f4f4;
+}
+
+.logo {
+    width: 90px;
+    height: 50px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.Imagens-textos{
+    filter: grayscale(1);
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    display: inline-flex;
+    margin: 50px;
+}
+
+.Imagens-textos img {
+    display: inline-block;
+}
+
+.Raphael {
+    margin: 50px;
+}
+.JPTudo {
+    margin: 50px;
+}
+.SamTudo {
+    margin: 50px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+* {
+    text-decoration: none;
+}
+.imgrapha {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    filter: grayscale(1);
+    
+}
+
+.imgJP {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    filter: grayscale(1);
+}
+
+.imgSam {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    filter: grayscale(1);
+}
+
+.tudo-conteudo {
+    align-items: center;
+    text-align: center;  
+    padding: 67px;
+  
+}
+
+.JPConteudo {
+    padding: 100px;
+    margin: 70px;
+    overflow: hidden;
+    background-color: white;
+    margin-right: 150px;
+}
+
+.imgJP2 {
+    border-radius: 50%;
+    width: 215px;
+    height: 215px;
+    filter: grayscale(1);
+}
+
+.JPConteudo img {
+    float: left;
+    margin-right: 50px;
+}
+
+.JPConteudo h3 {
+    display: block;
+    padding-top: 50px;
+    margin-bottom: 1px;
+}
+
+.github {
+    width: 25px;
+    height: 25px;
+}
