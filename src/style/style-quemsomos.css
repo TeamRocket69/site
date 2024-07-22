@@ -1,39 +1,38 @@
 body {
     font-family: cursive;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #f4f4f4;
+    background-color: #bfbfbf;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
 }
 
 .logo {
-    width: 90px;
+    width: 100px;
     height: 50px;
     justify-content: flex-start;
     align-items: flex-start;
-    text-align: left;
 }
 
 .Imagens-textos{
     filter: grayscale(1);
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     text-align: center;
-    display: inline-flex;
-    margin: 50px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .Imagens-textos img {
-    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
 }
 
-.Raphael {
-    margin: 50px;
-}
-.JPTudo {
-    margin: 50px;
-}
-.SamTudo {
-    margin: 50px;
+.imgVal{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    filter: grayscale(1);
 }
 
 a:hover{
@@ -68,16 +67,24 @@ a:hover{
 .tudo-conteudo {
     align-items: center;
     text-align: center;  
-    padding: 67px;
-  
+    margin: 50px;
+    margin-top: 20px;
+    padding-bottom: 100px;
+    padding-top: 50px;
+    background-color: white;
+    border-radius: 10px;
 }
 
 .JPConteudo {
-    padding: 100px;
-    margin: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px;
+    margin: 50px;
+    margin-top: 20px;
+    border-radius: 10px;
     overflow: hidden;
     background-color: white;
-    margin-right: 150px;
 }
 
 .imgJP2 {
@@ -101,4 +108,16 @@ a:hover{
 .github {
     width: 25px;
     height: 25px;
+}
+
+.Imagens-textos div *{
+    text-align: center;
+}
+
+.logo2{
+    text-align: center;
+}
+
+#logo{
+    text-align: center;
 }
