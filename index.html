@@ -6,8 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Team Rocket Partituras | Permita que suas habilidades musicais decolem!</title>
     <link rel="stylesheet" href="src/style/style.css">
-    <link rel="shortcut icon" href="src/ico/logobranca.ico" type="image/x-icon">
-    <link rel="icon" href="imagens/logobranca.png">
+    <link rel="shortcut icon" href="src/imagens/logobranca.ico" type="image/x-icon">
 </head>
 <body>
     <header>
@@ -114,18 +113,7 @@
         <li><a href="contato.html">Contato</a></li>
         <li><a href="">Quem Somos</a></li>
     </footer>
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const products = document.querySelectorAll('.partitura');
-
-            products.forEach(product => {
-                product.addEventListener('click', function() {
-                    const productId = this.getAttribute('data-id');
-                    window.location.href = `detalhes.html?id=${productId}`;
-                });
-            });
-        });
-    </script>
+    <script src="src/js/id.js"></script>
 
 
     <!-- 

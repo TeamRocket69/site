@@ -12,11 +12,12 @@ document.addEventListener('DOMContentLoaded', function() {
             difficulty: '<font color="#322E33"><b>Nível de dificuldade:</b></font> Iniciante',
             pages: '<font color="#322E33"><b>Páginas:</b></font> 1',
             duration: '<font color="#322E33"><b>Duração:</b></font> 02:05',
+            format: '<font color="#322E33"><b>Formato: </b></font> PDF',
             key: '<font color="#322E33"><b>Tonalidade:</b></font> D, Bm',
             genre: '<font color="#322E33"><b>Gênero:</b></font> Clássico',
-            link: 'https://youtu.be/aBkTkxKDduc?si=VS7R9ybn_rx8bqjO',
+            link: 'https://www.youtube.com/embed/aBkTkxKDduc',
             file: 'src/partituras/Minecraft-Sweden.pdf',
-            description: '"Minecraft - Sweden" é uma das músicas mais conhecidas da trilha sonora do jogo Minecraft, criada pelo compositor alemão Daniel Rosenfeld, conhecido como C418. Esta faixa específica é uma das músicas mais icônicas e amadas pelos jogadores de Minecraft.'
+            description: '"Sweden" é uma das peças mais emblemáticas da trilha sonora de Minecraft, composta por Daniel Rosenfeld, mais conhecido como C418. Esta música é uma composição de piano suave que captura perfeitamente a essência pacífica e introspectiva do jogo. A melodia é simples, mas profundamente evocativa, utilizando acordes gentis e progressões harmônicas que evocam um sentimento de tranquilidade e nostalgia. O piano é complementado por sons ambientais sutis, que adicionam uma camada de profundidade à composição. "Sweden" é frequentemente tocada enquanto os jogadores exploram o vasto e aberto mundo de Minecraft, criando uma experiência auditiva relaxante que complementa a natureza criativa e livre do jogo. A combinação de simplicidade melódica e riqueza emocional fez de "Sweden" uma peça atemporal, amada por jogadores de todas as idades.'
         },
         UnderGroundTheme: {
             name: 'Super Mario Bros. - Underground Theme',
@@ -27,9 +28,10 @@ document.addEventListener('DOMContentLoaded', function() {
             difficulty: '<font color="#322E33"><b>Nível de dificuldade:</b> </font> Iniciante',
             pages: '<font color="#322E33"><b>Páginas:</b></font> 1',
             duration: '<font color="#322E33"><b>Duração:</b></font> 00:25',
+            format: '<font color="#322E33"><b>Formato: </b></font> PDF',
             key: '<font color="#322E33"><b>Tonalidade:</b></font> C, Am',
             genre: '<font color="#322E33"><b>Gênero:</b></font> Trilha Sonora',
-            link: 'https://youtu.be/c0SuIMUoShI?si=2rxW3FOjqI7r8sFt',
+            link: 'https://www.youtube.com/embed/c0SuIMUoShI',
             file: 'src/partituras/SuperMarioBros-UnderGroundTheme.pdf',
             description: 'A trilha sonora "Underground Theme" do jogo Super Mario Bros. é uma das composições mais reconhecíveis e icônicas na história dos videogames. Criada pelo lendário compositor Koji Kondo, essa música é sinônimo de exploração e desafio nos níveis subterrâneos do jogo. A música começa com uma linha de baixo pulsante e repetitiva, que imediatamente estabelece uma atmosfera misteriosa e tensa. Essa linha de baixo é acompanhada por notas esparsas e ecoantes, criando uma sensação de profundidade e isolamento, que é perfeita para os níveis subterrâneos onde os jogadores devem navegar por labirintos e evitar inimigos. A simplicidade da melodia, combinada com seu ritmo hipnótico, faz com que a "Underground Theme" seja ao mesmo tempo cativante e um pouco inquietante. A música é composta por uma série de frases musicais curtas que se repetem, reforçando a sensação de estar preso em um labirinto subterrâneo. Além de criar uma atmosfera única, a "Underground Theme" também é notável por sua capacidade de evocar a sensação de exploração e descoberta. Cada nota parece estar carregada de suspense, incentivando os jogadores a continuar avançando, mesmo diante dos desafios. Esta trilha sonora é um exemplo brilhante de como a música pode ser usada para enriquecer a experiência de jogo, proporcionando uma camada adicional de imersão e emoção. A "Underground Theme" de Super Mario Bros. continua a ser uma parte querida e nostálgica da cultura dos videogames, lembrada por sua melodia icônica e seu impacto duradouro.'
         },
@@ -42,9 +44,10 @@ document.addEventListener('DOMContentLoaded', function() {
             difficulty: '<font color="#322E33"><b>Nível de dificuldade:</b> </font> Intermediário',
             pages: '<font color="#322E33"><b>Páginas:</b></font> 5',
             duration: '<font color="#322E33"><b>Duração:</b></font> 02:42',
+            format: '<font color="#322E33"><b>Formato: </b></font> PDF',
             key: '<font color="#322E33"><b>Tonalidade:</b></font> F, Dm',
             genre: '<font color="#322E33"><b>Gênero:</b></font> Trilha Sonora',
-            link: 'https://youtu.be/wDgQdr8ZkTw?si=OMy2m_rfBiv19igR',
+            link: 'https://www.youtube.com/embed/wDgQdr8ZkTw',
             file: 'src/partituras/Undertale-Megalovania.pdf',
             description: '"Megalovania" é uma das trilhas sonoras mais icônicas e intensas do jogo Undertale, composta por Toby Fox. Esta música é conhecida por sua energia eletrizante, ritmo acelerado e impacto emocional, sendo um dos temas mais memoráveis e populares da comunidade de jogadores. A música começa com uma introdução dramática e misteriosa, usando sintetizadores e percussão eletrônica para criar uma sensação de urgência e excitação. A melodia principal é conduzida por um riff de guitarra distorcida, que se destaca pela sua intensidade e complexidade. Ao longo da peça, "Megalovania" apresenta variações dinâmicas e mudanças de ritmo que aumentam a tensão e mantêm os ouvintes completamente envolvidos. A combinação de elementos eletrônicos e instrumentais cria uma atmosfera única de batalha e confronto, refletindo a intensidade dos momentos em que a música é tocada no jogo. A composição é marcada por suas linhas melódicas distintas e progressões de acordes que alternam entre momentos frenéticos e partes mais cadenciadas, proporcionando uma experiência auditiva que complementa perfeitamente a jogabilidade intensa e desafiadora de Undertale. "Megalovania" não é apenas uma trilha sonora; é um símbolo de determinação, desafio e ação dentro do universo de Undertale. A música continua a ser reverenciada não apenas por sua qualidade musical, mas também por sua capacidade de capturar a essência emocional e narrativa do jogo de maneira única e memorável'
         },
@@ -57,9 +60,10 @@ document.addEventListener('DOMContentLoaded', function() {
             difficulty: '<font color="#322E33"><b>Nível de dificuldade:</b> </font> Iniciante',
             pages: '<font color="#322E33"><b>Páginas:</b></font> 2',
             duration: '<font color="#322E33"><b>Duração:</b></font> 01:08',
+            format: '<font color="#322E33"><b>Formato: </b></font> PDF',
             key: '<font color="#322E33"><b>Tonalidade:</b></font> C, Am',
             genre: '<font color="#322E33"><b>Gênero:</b></font> Trilha Sonora',
-            link: 'https://youtu.be/NW-cQXEOgmc?si=iyGFIHCwd16lukoF',
+            link: 'https://www.youtube.com/embed/NW-cQXEOgmc',
             file: 'src/partituras/SonicBoom-TromboneFanfare.pdf',
             description: 'A trilha sonora "Trombone Fanfare" do jogo Sonic Boom é uma peça musical vibrante e enérgica que reflete a ação acelerada e a aventura constante da franquia Sonic. Composta por Richard Jacques, esta música é um exemplo de como os elementos tradicionais da fanfarra podem ser combinados com a modernidade dos videogames para criar uma experiência auditiva emocionante. A música começa com uma fanfarra ousada e dinâmica tocada por trombones, estabelecendo imediatamente uma sensação de grandiosidade e entusiasmo. Os trombones são acompanhados por uma percussão forte e ritmada, que adiciona um elemento de urgência e movimento à peça. A melodia é cativante e poderosa, capturando a essência da velocidade e da ação que define os jogos Sonic. À medida que a música avança, ela mantém um ritmo constante e acelerado, com variações dinâmicas que mantêm o ouvinte envolvido e empolgado. A combinação de instrumentos de sopro e percussão cria uma atmosfera de celebração e triunfo, ideal para momentos de vitória e conquista dentro do jogo. "Trombone Fanfare" é uma trilha sonora que exemplifica a energia vibrante e o espírito aventureiro de Sonic Boom. A música não só acompanha a ação do jogo, mas também intensifica a experiência do jogador, proporcionando uma trilha sonora memorável que ressoa com a emoção e a adrenalina das aventuras de Sonic e seus amigos.'
         },
@@ -72,9 +76,10 @@ document.addEventListener('DOMContentLoaded', function() {
             difficulty: '<font color="#322E33"><b>Nível de dificuldade:</b> </font> Intermediário',
             pages: '<font color="#322E33"><b>Páginas:</b></font> 3',
             duration: '<font color="#322E33"><b>Duração:</b></font> 02:07',
+            format: '<font color="#322E33"><b>Formato: </b></font> PDF',
             key: '<font color="#322E33"><b>Tonalidade:</b></font> F, Dm',
             genre: '<font color="#322E33"><b>Gênero:</b></font> Trilha Sonora',
-            link: 'https://youtu.be/im6tbN9SZXs?si=tqTCN7ZX9wqM5HkX',
+            link: 'https://www.youtube.com/embed/im6tbN9SZXs',
             file: 'src/partituras/Pokemon-Littleroot-Town.pdf',
             description: 'A trilha sonora "Littleroot Town" do jogo Pokémon é uma peça musical que encapsula perfeitamente a sensação de início de uma nova aventura. Composta por Junichi Masuda, esta música serve como tema para a cidade natal do protagonista em Pokémon Ruby, Sapphire, e Emerald, assim como nos remakes Omega Ruby e Alpha Sapphire. "Littleroot Town" começa com uma melodia suave e acolhedora tocada por instrumentos de sopro, que imediatamente evocam uma sensação de segurança e familiaridade. A música é acompanhada por acordes suaves de cordas e um ritmo leve, criando uma atmosfera serena que reflete o ambiente pacífico da cidadezinha. A simplicidade da composição, combinada com sua melodia alegre, faz com que os jogadores sintam um vínculo especial com Littleroot Town, um lugar que simboliza o começo de suas jornadas no mundo Pokémon. A música é ao mesmo tempo nostálgica e esperançosa, lembrando os jogadores dos momentos de descoberta e dos primeiros passos dados em direção a aventuras épicas. A trilha sonora de "Littleroot Town" é uma celebração da simplicidade e da beleza dos começos humildes, capturando a essência do espírito aventureiro que define a série Pokémon.'
         },
@@ -87,9 +92,10 @@ document.addEventListener('DOMContentLoaded', function() {
             difficulty: '<font color="#322E33"><b>Nível de dificuldade:</b> </font> Iniciante',
             pages: '<font color="#322E33"><b>Páginas:</b></font> 1',
             duration: '<font color="#322E33"><b>Duração:</b></font> 01:31',
+            format: '<font color="#322E33"><b>Formato: </b></font> PDF',
             key: '<font color="#322E33"><b>Tonalidade:</b></font> A, F#m',
             genre: '<font color="#322E33"><b>Gênero:</b></font> Clássico',
-            link: 'https://youtu.be/MSepOYJxB64?si=FOiitUBbxQxj5sYE',
+            link: 'https://www.youtube.com/embed/MSepOYJxB64',
             file: 'src/partituras/Minecraft-WetHands.pdf',
             description: '"Wet Hands" é uma das composições mais queridas da trilha sonora de Minecraft, criada por C418 (Daniel Rosenfeld). Esta peça é reconhecida por sua simplicidade encantadora e sua habilidade de evocar emoções profundas através de uma melodia suave e introspectiva. A música é centrada em um piano solitário, cujas notas claras e delicadas se desdobram em uma melodia serena e contemplativa. "Wet Hands" captura a sensação de calma e quietude que frequentemente acompanha a exploração do mundo de Minecraft. Cada nota é tocada com precisão e cuidado, criando uma atmosfera de introspecção e paz que complementa perfeitamente o ritmo tranquilo do jogo. A estrutura minimalista de "Wet Hands" permite que os jogadores se concentrem no momento presente, seja construindo, explorando ou simplesmente apreciando a vastidão e a beleza do mundo ao seu redor. A música evoca uma sensação de nostalgia e melancolia leve, lembrando os jogadores dos momentos de descoberta e das paisagens serenas encontradas ao longo de suas jornadas. Esta faixa é um exemplo brilhante de como a trilha sonora de Minecraft consegue ser ao mesmo tempo simples e profundamente impactante, tornando-se uma parte integral da experiência imersiva do jogo.'
         },
@@ -102,9 +108,10 @@ document.addEventListener('DOMContentLoaded', function() {
             difficulty: '<font color="#322E33"><b>Nível de dificuldade:</b> </font> Intermediário',
             pages: '<font color="#322E33"><b>Páginas:</b></font> 3',
             duration: '<font color="#322E33"><b>Duração:</b></font> 02:42',
+            format: '<font color="#322E33"><b>Formato: </b></font> PDF',
             key: '<font color="#322E33"><b>Tonalidade:</b></font> D, Bm',
             genre: '<font color="#322E33"><b>Gênero:</b></font> Trilha Sonora',
-            link: 'https://youtu.be/cGBMTAGzWPs?si=oeXdy-9RbsfoA-6T',
+            link: 'https://www.youtube.com/embed/cGBMTAGzWPs',
             file: 'src/partituras/Undertale-FallenDown.pdf',
             description: '"Fallen Down" é uma das trilhas sonoras emocionais e evocativas do jogo indie Undertale, composta por Toby Fox. Esta música é conhecida por capturar perfeitamente momentos de nostalgia, reflexão e melancolia dentro da narrativa rica e emocional de Undertale. A música começa com um piano suave e delicado, que estabelece uma atmosfera calma e contemplativa desde o primeiro acorde. A melodia é simples, mas profundamente emotiva, transmitindo uma sensação de serenidade e introspecção que reflete os temas do jogo. Ao longo da peça, elementos adicionais, como acordes de violão e harmonias suaves, são introduzidos, adicionando camadas à melodia principal e criando uma experiência auditiva rica e envolvente. A composição é marcada por mudanças sutis na dinâmica e no ritmo, que ajudam a sustentar a atmosfera de tranquilidade e tristeza pacífica. "Fallen Down" é uma trilha sonora que ressoa com os jogadores não apenas por sua beleza musical, mas também por sua capacidade de evocar emoções profundas e complexas. A música se torna um reflexo dos momentos de quietude e contemplação que os personagens e jogadores experimentam ao longo da jornada de Undertale. Esta trilha sonora exemplifica a habilidade de Toby Fox de criar músicas que não apenas complementam, mas também enriquecem a narrativa e a atmosfera do jogo, tornando "Fallen Down" uma peça memorável e querida entre os fãs de Undertale em todo o mundo.'
         },
@@ -117,9 +124,10 @@ document.addEventListener('DOMContentLoaded', function() {
             difficulty: '<font color="#322E33"><b>Nível de dificuldade:</b> </font> Intermediário',
             pages: '<font color="#322E33"><b>Páginas:</b></font> 2',
             duration: '<font color="#322E33"><b>Duração:</b></font> 01:36',
+            format: '<font color="#322E33"><b>Formato: </b></font> PDF',
             key: '<font color="#322E33"><b>Tonalidade:</b></font> C, Am',
             genre: '<font color="#322E33"><b>Gênero:</b></font> Trilha Sonora',
-            link: 'https://youtu.be/NmCCQxVBfyM?si=goeyCj2EaKm0uIAU',
+            link: 'https://www.youtube.com/embed/NmCCQxVBfyM',
             file: 'src/partituras/Tetris-Theme.pdf',
             description: 'O "Tetris Theme" é uma das trilhas sonoras mais reconhecíveis e icônicas da história dos videogames. Composta originalmente por Hirokazu Tanaka para o jogo Tetris lançado em 1989 para o Game Boy, esta música é sinônimo do desafio e da jogabilidade viciante que caracterizam o clássico jogo de quebra-cabeça. A música começa com uma melodia simples e cativante, composta por uma combinação de notas eletrônicas que se repetem em um padrão envolvente. A batida constante e o ritmo acelerado refletem a natureza rápida e estratégica do jogo Tetris, onde os jogadores devem girar e encaixar blocos em movimento para criar linhas completas. A "Tetris Theme" é conhecida por sua capacidade de manter os jogadores focados e motivados, incentivando-os a alcançar pontuações mais altas enquanto enfrentam desafios crescentes. A simplicidade da melodia, combinada com sua energia contagiante, cria uma experiência auditiva que complementa perfeitamente a mecânica do jogo. Ao longo dos anos, o "Tetris Theme" se tornou um ícone cultural, reconhecido não apenas por sua associação com o jogo Tetris original, mas também por sua capacidade de evocar nostalgia e lembranças de jogos de quebra-cabeça clássicos. A música continua a ser remixada e reinterpretada em várias formas de mídia, demonstrando seu impacto duradouro e sua popularidade entre os fãs de videogames em todo o mundo.'
         },
@@ -127,6 +135,16 @@ document.addEventListener('DOMContentLoaded', function() {
             name: 'Pokémon Ruby, Sapphire & Emerald - Elite Four Theme',
             composer: '<font color="#322E33"><b>Compositor:</b></font> Junichi Masuda',
             platform: '<font color="#322E33"><b>Plataforma:</b></fcrystal',
+            instrument: '<font color="#322E33"><b>Instrumento:</b></font> Piano',
+            image: 'src/partituras/Pokemon-RSE-Elite-Four-Theme.png',
+            difficulty: '<font color="#322E33"><b>Nível de dificuldade:</b></font> Intermediário',
+            pages: '<font color="#322E33"><b>Páginas:</b></font> 3',
+            duration: '<font color="#322E33"><b>Duração:</b></font> 02:16',
+            format: '<font color="#322E33"><b>Formato: </b></font> PDF',
+            key: '<font color="#322E33"><b>Tonalidade:</b></font> D, B',
+            genre: '<font color="#322E33"><b>Gênero:</b></font> Trilha Sonora',
+            link: 'https://www.youtube.com/embed/h92NII_daio',
+            file: 'src/partituras/Pokemon-RSE-Elite-Four-Theme.pdf',
             description: 'A trilha sonora "Elite Four Theme" dos jogos Pokémon Ruby, Sapphire e Emerald é uma peça musical épica e intensamente energética que captura a seriedade e a grandiosidade das batalhas finais contra os membros da Elite Four. Composta por Junichi Masuda, esta música é um marco que define o clímax da jornada dos treinadores Pokémon na região de Hoenn. A música começa com uma introdução poderosa e dramática, utilizando acordes fortes e uma percussão vigorosa que imediatamente estabelece um clima de alta tensão e expectativa. A melodia principal, com suas notas rápidas e ascendentes, transmite uma sensação de urgência e desafio, refletindo a seriedade do confronto contra alguns dos treinadores mais fortes do jogo. Ao longo da composição, há uma combinação de temas orquestrais e eletrônicos que criam uma atmosfera de batalha intensa e épica. Os ritmos acelerados e as mudanças dinâmicas na melodia mantêm os jogadores em um estado constante de alerta e excitação, capturando a importância dessas batalhas decisivas. O "Elite Four Theme" é projetado para envolver os jogadores emocionalmente, fazendo-os sentir a magnitude do momento enquanto enfrentam a Elite Four. A música, com sua complexidade e energia, intensifica a experiência de jogo, tornando cada batalha um evento memorável e grandioso. Esta trilha sonora é mais do que apenas uma música de fundo; ela simboliza a culminação de todo o esforço e treinamento dos jogadores, proporcionando uma trilha sonora apropriada para um dos desafios mais significativos do jogo.'
         },
         TheGreatFairyFountain: {
@@ -138,9 +156,10 @@ document.addEventListener('DOMContentLoaded', function() {
             difficulty: '<font color="#322E33"><b>Nível de dificuldade:</b></font> Intermediário',
             pages: '<font color="#322E33"><b>Páginas:</b></font> 1',
             duration: '<font color="#322E33"><b>Duração:</b></font> 00:50',
+            format: '<font color="#322E33"><b>Formato: </b></font> PDF',
             key: '<font color="#322E33"><b>Tonalidade:</b></font> Bb, Gm',
             genre: '<font color="#322E33"><b>Gênero:</b></font> Trilha Sonora',
-            link: 'https://youtu.be/OdfqvsdSOuI?si=N43-18pfnqu0k7dC',
+            link: 'https://www.youtube.com/embed/OdfqvsdSOuI',
             file: 'src/partituras/TheLegendofZelda-TheGreatFairyFountain.pdf',
             description: 'A faixa é conhecida por sua melodia suave e reconfortante, muitas vezes associada aos locais onde as Great Fairy Fountains aparecem nos jogos da franquia. Essas fontes são locais místicos onde as Grandes Fadas residem e concedem poderes especiais ao protagonista, Link, como melhorias em equipamentos, aumento de saúde ou magia, entre outras habilidades. A música da Great Fairy Fountain geralmente toca quando Link se aproxima desses locais sagrados, criando uma atmosfera de encantamento e mistério. A melodia é caracterizada por sua simplicidade e beleza, com notas suaves que evocam um sentimento de tranquilidade e magia. Ao longo dos anos, a música se tornou um símbolo querido para os fãs da série, lembrando-os das experiências emocionantes e da jornada épica vivida por Link através do reino de Hyrule'
         },
@@ -153,9 +172,10 @@ document.addEventListener('DOMContentLoaded', function() {
             difficulty: '<font color="#322E33"><b>Nível de dificuldade:</b> </font> Intermediário',
             pages: '<font color="#322E33"><b>Páginas:</b></font> 5',
             duration: '<font color="#322E33"><b>Duração:</b></font> 02:51',
+            format: '<font color="#322E33"><b>Formato: </b></font> PDF',
             key: '<font color="#322E33"><b>Tonalidade:</b></font> C, Am',
             genre: '<font color="#322E33"><b>Gênero:</b></font> Trilha Sonora',
-            link: 'https://youtu.be/Fupfr_eVLPo?si=K7adBleJ8EjZ59Nt',
+            link: 'https://www.youtube.com/embed/Fupfr_eVLPo',
             file: 'src/partituras/Pokemon-RBY-Battle-Music.pdf',
             description: 'A trilha sonora "Trainer Battle Music" dos jogos Pokémon Red, Blue e Yellow é uma peça musical icônica que simboliza a tensão e a excitação dos combates Pokémon. Composta por Junichi Masuda, esta música é uma parte fundamental da experiência de batalha que define a série. A música começa com uma introdução intensa e rápida, usando acordes poderosos e ritmos pulsantes que imediatamente aumentam a adrenalina do jogador. A melodia principal, tocada em um ritmo acelerado, é ao mesmo tempo cativante e desafiadora, refletindo a urgência e a competitividade das batalhas contra outros treinadores. A trilha sonora é composta por linhas de baixo enérgicas e sequências de notas rápidas que criam uma sensação de movimento constante e imprevisibilidade. Cada batalha se torna uma experiência emocionante, com a música intensificando a sensação de que cada movimento conta e cada decisão é crucial para a vitória. O "Trainer Battle Music" é projetado para manter os jogadores engajados e focados, capturando a essência da estratégia e da emoção que permeiam os combates Pokémon. A intensidade da música, combinada com sua melodia inesquecível, faz com que cada encontro com um treinador seja memorável e eletrizante. Esta trilha sonora é mais do que apenas uma música de fundo; é uma parte integral da identidade dos jogos Pokémon Red, Blue e Yellow, deixando uma marca indelével na memória dos jogadores e contribuindo para a atmosfera única e emocionante das batalhas Pokémon.'
         },
@@ -168,24 +188,26 @@ document.addEventListener('DOMContentLoaded', function() {
             difficulty: '<font color="#322E33"><b>Nível de dificuldade:</b> </font> Iniciante',
             pages: '<font color="#322E33"><b>Páginas:</b></font> 2',
             duration: '<font color="#322E33"><b>Duração:</b></font> 00:54',
+            format: '<font color="#322E33"><b>Formato: </b></font> PDF',
             key: '<font color="#322E33"><b>Tonalidade:</b></font> C, Am',
             genre: '<font color="#322E33"><b>Gênero:</b></font> Trilha Sonora',
-            link: 'https://youtu.be/G-i8HYi1QH0?si=ldAdhCKz95qRlkx3',
+            link: 'https://www.youtube.com/embed/G-i8HYi1QH0',
             file: 'src/partituras/SonicTheHedgehog-GreenHillZone.pdf',
             description: 'A música "Green Hill Zone" do jogo Sonic the Hedgehog é uma das trilhas sonoras mais icônicas e reconhecíveis da história dos videogames. Composta por Masato Nakamura, do grupo japonês Dreams Come True, esta música captura a essência da velocidade e da aventura que definem o jogo Sonic. A música começa com uma introdução animada e enérgica, caracterizada por uma melodia cativante e ritmos acelerados que refletem o estilo de jogo rápido e dinâmico de Sonic. Os instrumentos utilizados são principalmente sintetizadores e percussão eletrônica, que criam uma sensação de movimento e ação constante. Ao longo da peça, há variações dinâmicas que mantêm os jogadores imersos na experiência, alternando entre seções mais intensas e momentos mais suaves que permitem uma breve pausa antes de voltar à ação. A combinação de melodias memoráveis e ritmos pulsantes torna "Green Hill Zone" uma trilha sonora que não só complementa, mas também impulsiona a jogabilidade do Sonic. Esta música é não apenas um tema de abertura, mas também um símbolo da nostalgia e do espírito aventureiro que muitos associam ao Sonic the Hedgehog desde seu lançamento inicial.'
         },
         FileCityTheme: {
             name: 'Digimon World - File City day and night Theme',
             composer: '<font color="#322E33"><b>Compositor:</b></font> Makoto Tomozawa',
-            platform: '<font color="#322E33"><b>Plataforma:</b></font> PlaySation',
+            platform: '<font color="#322E33"><b>Plataforma:</b></font> PlayStation',
             instrument: '<font color="#322E33"><b>Instrumento:</b></font> Sintetizadores eletrônicos, possivelmente com variações de textura e timbre.',
             image: 'src/partituras/DigimonWorld-FileCityTheme.png',
             difficulty: '<font color="#322E33"><b>Nível de dificuldade:</b> </font> Intermediário',
             pages: '<font color="#322E33"><b>Páginas:</b></font> 3',
             duration: '<font color="#322E33"><b>Duração:</b></font> 06:28',
+            format: '<font color="#322E33"><b>Formato: </b></font> PDF',
             key: '<font color="#322E33"><b>Tonalidade:</b></font> A, F#m',
             genre: '<font color="#322E33"><b>Gênero:</b></font> Trilha sonora',
-            link: 'https://youtu.be/9oDImbXccKM?si=dDhBRKKIaRRuncv1',
+            link: 'https://www.youtube.com/embed/9oDImbXccKM',
             file: 'src/partituras/DigimonWorld-FileCityTheme.pdf',
             description: 'A trilha sonora "File City Theme" do jogo Digimon World é uma peça musical nostálgica que captura a essência do primeiro jogo da série para PlayStation. Composta por Makoto Tomozawa, a música é alegre e convidativa, refletindo a segurança e a esperança encontradas na File City, o ponto central de encontro para os jogadores e seus Digimons. O tema começa com uma melodia cativante e otimista que transmite uma sensação de comunidade e amizade. Os instrumentos de sopro leves e os acordes suaves do teclado criam uma atmosfera acolhedora, transportando os jogadores para um mundo digital vibrante e cheio de vida. À medida que a música progride, ela mantém um ritmo constante e sereno, proporcionando um pano de fundo perfeito para a exploração e a aventura dentro do jogo. A simplicidade da composição, combinada com sua melodia memorável, faz com que os jogadores se sintam imediatamente em casa em File City, prontos para embarcar em suas jornadas no mundo dos Digimons.'
         },
@@ -198,9 +220,10 @@ document.addEventListener('DOMContentLoaded', function() {
             difficulty: '<font color="#322E33"><b>Nível de dificuldade:</b> </font> Iniciante',
             pages: '<font color="#322E33"><b>Páginas:</b></font> 2',
             duration: '<font color="#322E33"><b>Duração:</b></font> 03:09',
+            format: '<font color="#322E33"><b>Formato: </b></font> PDF',
             key: '<font color="#322E33"><b>Tonalidade:</b></font> C, Am',
             genre: '<font color="#322E33"><b>Gênero:</b></font> Clássico',
-            link: 'https://youtu.be/Gpd85y_iTxY?si=Cw1LyhNLFouWt1Dj',
+            link: 'https://www.youtube.com/embed/Gpd85y_iTxY',
             file: 'src/partituras/Minecraft-SubwooferLullaby.pdf',
             description: '"Subwoofer Lullaby" é uma das trilhas sonoras icônicas do jogo Minecraft, composta por C418 (Daniel Rosenfeld). Esta peça musical é um exemplo perfeito de como a simplicidade e a repetição podem criar uma atmosfera imersiva e relaxante. A faixa começa com uma linha de baixo suave e envolvente, que se entrelaça com notas de piano etéreas e sutis. A combinação de sons eletrônicos e acústicos estabelece uma sensação de tranquilidade e exploração, características centrais da experiência de jogar Minecraft. O ritmo lento e cadenciado de "Subwoofer Lullaby" proporciona um pano de fundo sereno, perfeito para momentos de construção, exploração e reflexão dentro do vasto mundo gerado proceduralmente. A melodia minimalista, porém emocionalmente ressonante, evoca uma sensação de nostalgia e aventura, capturando a essência do que torna Minecraft uma experiência única. À medida que os jogadores se perdem na criação de suas próprias histórias e mundos, "Subwoofer Lullaby" serve como um companheiro musical constante, lembrando-os da simplicidade e beleza da exploração e da criatividade.'
         },
@@ -213,9 +236,10 @@ document.addEventListener('DOMContentLoaded', function() {
             difficulty: '<font color="#322E33"><b>Nível de dificuldade:</b> </font> Intermediário',
             pages: '<font color="#322E33"><b>Páginas:</b></font> 1',
             duration: '<font color="#322E33"><b>Duração:</b></font> 01:00',
+            format: '<font color="#322E33"><b>Formato: </b></font> PDF',
             key: '<font color="#322E33"><b>Tonalidade:</b></font> C, Am',
             genre: '<font color="#322E33"><b>Gênero:</b></font> Trilha sonora',
-            link: 'https://youtu.be/NdJQopRuH1E?si=wvMppxfw_5rMIEIQ',
+            link: 'https://www.youtube.com/embed/NdJQopRuH1E',
             file: 'src/partituras/Pokemon-RB-Title-Theme.pdf',
             description: 'A trilha sonora "Title Theme" dos jogos Pokémon Red e Blue é uma das composições mais icônicas e reconhecíveis da franquia Pokémon. Composta por Junichi Masuda, essa música introduz os jogadores ao mundo dos Pokémon de maneira épica e cativante desde o momento em que ligam o Game Boy. A música começa com uma fanfarra triunfante que rapidamente se transforma em uma melodia energética e empolgante. A combinação de acordes potentes e uma linha de baixo pulsante cria uma sensação de grandeza e aventura, preparando os jogadores para a jornada emocionante que está por vir. A melodia é simples, mas memorável, e evoca um sentimento de determinação e entusiasmo. À medida que a música progridCe, ela mantém um ritmo acelerado e dinâmico, refletindo a energia e a empolgação de começar uma nova aventura no mundo Pokémon. A trilha sonora captura perfeitamente a essência do espírito exploratório e competitivo da série, convidando os jogadores a embarcarem em sua própria jornada para se tornarem Mestres Pokémon. O "Title Theme" de Pokémon Red e Blue é mais do que apenas uma introdução musical; é um chamado à aventura que ressoa com jogadores de todas as idades, deixando uma impressão duradoura desde os primeiros segundos de jogo.'
         },
@@ -228,9 +252,10 @@ document.addEventListener('DOMContentLoaded', function() {
             difficulty: '<font color="#322E33"><b>Nível de dificuldade:</b> </font> Iniciante',
             pages: '<font color="#322E33"><b>Páginas:</b></font> 5',
             duration: '<font color="#322E33"><b>Duração:</b></font> 04:04',
+            format: '<font color="#322E33"><b>Formato: </b></font> PDF',
             key: '<font color="#322E33"><b>Tonalidade:</b></font> E, C#m',
             genre: '<font color="#322E33"><b>Gênero:</b></font> Trilha Sonora',
-            link: 'https://youtu.be/MuhkUzGAeHA?si=J6ZKU11Wkax_LXZW',
+            link: 'https://www.youtube.com/embed/MuhkUzGAeHA',
             file: 'src/partituras/DigimonWorld-Butterfly.pdf',
             description: '"Butterfly" é uma música icônica do anime Digimon Adventure, sendo o tema de abertura original da série. Foi interpretada pelo grupo japonês Koji Wada. A música é conhecida por sua energia vibrante e otimista, capturando o espírito de aventura e amizade que são temas centrais no mundo de Digimon. Com uma combinação de rock e elementos eletrônicos, "Butterfly" se tornou uma das canções mais reconhecíveis e queridas pelos fãs do anime, evocando nostalgia e entusiasmo pela jornada dos Digiescolhidos e seus parceiros Digimon.'
         },
@@ -242,9 +267,9 @@ document.addEventListener('DOMContentLoaded', function() {
             image: 'src/partituras/GrannyTheme.png',
             difficulty: '<font color="#322E33"><b>Nível de dificuldade:</b> </font> Iniciante',
             pages: 'Páginas: 2',
-            link: 'https://youtu.be/EJ5h5vLEbqI?si=lJ9W5PIbhqikcowx',
+            link: 'https://www.youtube.com/embed/EJ5h5vLEbqI',
             file: 'src/partituras/GrannyTheme.pdf',
-            description: 'A música tema de "Granny" é uma parte essencial da atmosfera tensa e assustadora do jogo. Composta por Misc Computer Games, ela utiliza sons dissonantes e efeitos sonoros que contribuem para criar uma sensação de suspense e medo durante o jogo. A música aumenta a tensão à medida que o jogador tenta escapar da casa enquanto é perseguido pela avó, adicionando uma camada adicional de imersão à experiência de jogo.'
+            description: 'A trilha sonora do jogo de terror Granny é conhecida por sua atmosfera assustadora e tensa. A música é composta por sons ambientais sombrios e melodias inquietantes que criam uma sensação de medo e urgência. Este tema reforça a atmosfera aterrorizante do jogo, onde os jogadores devem escapar de uma casa enquanto evitam a avó aterrorizante. A trilha utiliza uma combinação de sintetizadores sombrios, percussão lenta e efeitos sonoros assustadores para criar uma experiência auditiva imersiva e perturbadora. A música aumenta a tensão e o suspense do jogo, mantendo os jogadores constantemente alertas e temerosos.'
         },
         GymTheme: {
             name: 'Pokémon - Gym Theme',
@@ -255,9 +280,10 @@ document.addEventListener('DOMContentLoaded', function() {
             difficulty: '<font color="#322E33"><b>Nível de dificuldade:</b> </font> Iniciante',
             pages: '<font color="#322E33"><b>Páginas:</b></font> 1',
             duration: '<font color="#322E33"><b>Duração:</b></font> 01:14 ',
+            format: '<font color="#322E33"><b>Formato: </b></font> PDF',
             key: '<font color="#322E33"><b>Tonalidade:</b></font> F, Dm',
             genre: '<font color="#322E33"><b>Gênero:</b></font> Trilha sonora',
-            link: 'https://youtu.be/biLeC5D4S48?si=NUd4v2l9CYjQ_OU_',
+            link: 'https://www.youtube.com/embed/biLeC5D4S48',
             file: 'src/partituras/Pokemon-Gym-Theme.pdf',
             description: 'O "Gym Theme" é uma peça musical que aparece em diversos jogos da série Pokémon, especialmente nos momentos em que o jogador desafia os líderes de ginásio. Esses temas musicais são projetados para refletir o ambiente desafiador e emocionante das batalhas de ginásio, onde os treinadores Pokémon competem para ganhar insígnias e progredir em suas jornadas.'
         },
@@ -270,11 +296,12 @@ document.addEventListener('DOMContentLoaded', function() {
             difficulty: '<font color="#322E33"><b>Nível de dificuldade:</b> </font> Iniciante',
             pages: '<font color="#322E33"><b>Páginas:</b></font> 1',
             duration: '<font color="#322E33"><b>Duração:</b></font> 01:28',
+            format: '<font color="#322E33"><b>Formato: </b></font> PDF',
             key: '<font color="#322E33"><b>Tonalidade:</b></font> C, Am',
             genre: '<font color="#322E33"><b>Gênero:</b></font> Trilha sonora',
-            link: 'https://youtu.be/JNJJ-QkZ8cM?si=f6vUuMxBe5Bk9PSy',
+            link: 'https://www.youtube.com/embed/JNJJ-QkZ8cM',
             file: 'src/partituras/Pokemon-Lavender-Town.pdf',
-            description: 'O tema de Lavender Town, também conhecido como "Lavender Town Syndrome", é uma das músicas mais icônicas e intrigantes da série de jogos Pokémon. Composta por Junichi Masuda, essa faixa musical é notável não apenas por sua melodia única e atmosférica, mas também por sua associação com uma lenda urbana dentro da comunidade de jogadores de Pokémon.'
+            description: 'A música de Lavender Town em Pokémon é uma das trilhas sonoras mais icônicas e misteriosas da série. Composta por Junichi Masuda, a melodia é assombrosa e melancólica, utilizando tons menores e um ritmo lento para criar uma atmosfera de mistério e tristeza. Esta música se tornou lendária entre os fãs de Pokémon, tanto por sua qualidade emocional quanto pelas lendas'
         },
         Route1: {
             name: 'Pokémon - Route 1',
@@ -285,26 +312,28 @@ document.addEventListener('DOMContentLoaded', function() {
             difficulty: '<font color="#322E33"><b>Nível de dificuldade:</b> </font> Intermediário',
             pages: '<font color="#322E33"><b>Páginas:</b></font> 2',
             duration: '<font color="#322E33"><b>Duração:</b></font> 00:46',
+            format: '<font color="#322E33"><b>Formato: </b></font> PDF',
             key: '<font color="#322E33"><b>Tonalidade:</b></font> D, Bm',
             genre: '<font color="#322E33"><b>Gênero:</b></font> Trilha sonora',
-            link: 'https://youtu.be/u0G12EBW4KY?si=XG0p21ojD0pI1aUI',
+            link: 'https://www.youtube.com/embed/u0G12EBW4KY',
             file: 'src/partituras/Pokemon-Route1.pdf',
-            description: 'O tema da Rota 1 em Pokémon é uma das músicas mais reconhecíveis e icônicas da série de jogos Pokémon. Composta por Junichi Masuda, essa música desempenha um papel crucial em estabelecer a atmosfera inicial e a jornada emocionante que os jogadores irão experimentar ao iniciar sua aventura pelo mundo Pokémon.'
+            description: 'A música de "Route 1" em Pokémon, composta por Junichi Masuda, é uma trilha sonora alegre e otimista que captura a emoção de iniciar uma nova jornada. Esta música é frequentemente a primeira que os jogadores ouvem ao começar sua aventura, e sua melodia animada e ritmo enérgico estabelecem o tom para a exploração do mundo dos Pokémon. A composição utiliza uma variedade de instrumentos eletrônicos para criar uma sensação de movimento e progresso, enquanto a melodia cativante evoca um sentimento de curiosidade e entusiasmo. "Route 1" é uma peça musical que se destaca por sua simplicidade e eficácia, proporcionando uma experiência auditiva que é tanto reconfortante quanto empolgante.'
         },
         PokemonTheme: {
             name: 'Pokemon Theme',
             composer: '<font color="#322E33"><b>Compositores:</b></font> John Siegler, John Loeffler. Intérprete: Jason Paige',
             platform: '<font color="#322E33"><b>Plataformas:</b></font> Televisão, Serviços de Streaming',
             instrument: '<font color="#322E33"><b>Instrumentos:</b></font> Voz, Guitarras elétricas, bateria',
-            image: 'src/partituras/Pokemon-Theme.png',
+            image: 'src/partituras/Pokemon-Theme-Song.png',
             difficulty: '<font color="#322E33"><b>Nível de dificuldade:</b> </font> Intermediário',
             pages: '<font color="#322E33"><b>Páginas:</b></font> 4',
             duration: '<font color="#322E33"><b>Duração:</b></font> 02:56',
+            format: '<font color="#322E33"><b>Formato: </b></font> PDF',
             key: '<font color="#322E33"><b>Tonalidade:</b></font> Bb, Gm',
             genre: '<font color="#322E33"><b>Gênero:</b></font> Rock, Trilha sonora',
-            link: 'https://youtu.be/fCkeLBGSINs?si=EjgS0oV4ts2QIoBQ',
+            link: 'https://www.youtube.com/embed/fCkeLBGSINs',
             file: 'src/partituras/Pokemon-Theme.pdf',
-            description: 'A música tema de Pokémon, também conhecida como "Pokémon Theme", é uma das músicas mais emblemáticas e reconhecíveis da cultura pop, especialmente entre os fãs da franquia de jogos, desenhos animados e filmes de Pokémon. Composta por John Siegler e John Loeffler, e interpretada pela banda Jason Paige, a música tema foi introduzida como o tema de abertura da série animada Pokémon nos Estados Unidos.'
+            description: "A música tema de Pokémon, também conhecida como Gotta Catch 'Em All, é uma das trilhas mais reconhecíveis e queridas da série. Composta por John Siegler e John Loeffler, a música captura o espírito de aventura e determinação da série Pokémon. A letra inspiradora e a melodia energética se tornaram um hino para fãs de todas as idades, encapsulando a emoção de ser um Mestre Pokémon. A música utiliza uma combinação de guitarra elétrica, bateria e sintetizadores para criar uma atmosfera empolgante e motivadora. A letra, com seu refrão icônico, incentiva os jogadores a explorarem o mundo dos Pokémon, capturando todos e se tornando os melhores. A música tema de Pokémon é uma peça central na identidade da série, unindo jogadores de diferentes gerações em uma paixão compartilhada."
         },
         JetPou: {
             name: 'JetPou',
@@ -315,11 +344,12 @@ document.addEventListener('DOMContentLoaded', function() {
             difficulty: '<font color="#322E33"><b>Nível de dificuldade:</b></font>Iniciante',
             pages: '<font color="#322E33"><b>Páginas:</b></font> 1',
             duration: '<font color="#322E33"><b>Duração:</b></font> 01:17',
+            format: '<font color="#322E33"><b>Formato: </b></font> PDF',
             key: '<font color="#322E33"><b>Tonalidade:</b></font> C, Am',
             genre: '<font color="#322E33"><b>Gênero:</b></font> Experimental',
-            link: 'https://youtu.be/oWvHNQhPLUY?si=njPjkFnZRxjqjOSs',
+            link: 'https://www.youtube.com/embed/oWvHNQhPLUY',
             file: 'src/partituras/Pou-JetPou.pdf',
-            description: 'Jet Pou complementa perfeitamente a adrenalina do jogo. Com batidas pulsantes e melodias cativantes, a música cria uma atmosfera dinâmica e empolgante. Seus elementos eletrônicos e ritmo acelerado elevam a experiência de jogo, mantendo os jogadores imersos na ação enquanto pilotam o avião com o Pou. Uma escolha perfeita para intensificar a emoção e o ritmo desta aventura aérea!'
+            description: 'Jet Pou é uma trilha sonora animada e alegre do jogo Pou, que é um jogo de cuidados e mini-jogos com um alienígena de estimação. A música é cativante e divertida, refletindo a natureza leve e casual do jogo. As melodias simples e os ritmos divertidos tornam a experiência do jogador ainda mais agradável e envolvente. A trilha utiliza uma combinação de instrumentos eletrônicos e percussão para criar uma sensação de movimento e diversão. "Jet Pou" é uma peça musical que se destaca por sua simplicidade e eficácia, proporcionando uma experiência auditiva que é tanto relaxante quanto divertida.'
         },
         SkyJump: {
             name: 'SkyJump',
@@ -330,9 +360,10 @@ document.addEventListener('DOMContentLoaded', function() {
             difficulty: '<font color="#322E33"><b>Nível de dificuldade:</b> </font> Iniciante',
             pages: '<font color="#322E33"><b>Páginas:</b></font> 1',
             duration: '<font color="#322E33"><b>Duração:</b></font> 00:33',
+            format: '<font color="#322E33"><b>Formato: </b></font> PDF',
             key: '<font color="#322E33"><b>Tonalidade:</b></font> A, F#m',
             genre: '<font color="#322E33"><b>Gênero:</b></font> Clássico',
-            link: 'https://youtu.be/6sUE15ocU9E?si=8JU5u5Z1k8rAT-QO',
+            link: 'https://www.youtube.com/embed/6sUE15ocU9E',
             file: 'src/partituras/Pou-SkyJump.pdf',
             description: '"Sky Jump" é outra trilha sonora do jogo Pou, projetada para acompanhar os desafios emocionantes e a jogabilidade vertical onde Pou salta pelos céus. A música é otimista e encorajadora, usando melodias simples e ritmos animados para refletir a ascensão de Pou no jogo. Os instrumentos eletrônicos são proeminentes, criando uma atmosfera de diversão e exploração enquanto os jogadores buscam alcançar alturas cada vez maiores.'
         },
@@ -345,11 +376,12 @@ document.addEventListener('DOMContentLoaded', function() {
             difficulty: '<font color="#322E33"><b>Nível de dificuldade:</b> </font> Intermediário',
             pages: '<font color="#322E33"><b>Páginas:</b></font> 2',
             duration: '<font color="#322E33"><b>Duração:</b></font> 01:53',
+            format: '<font color="#322E33"><b>Formato: </b></font> PDF',
             key: '<font color="#322E33"><b>Tonalidade:</b></font> C, Am',
             genre: '<font color="#322E33"><b>Gênero:</b></font> Trilha Sonora',
-            link: 'https://youtu.be/NTa6Xbzfq1U?si=DScfPZfXjymdxNi0',
+            link: 'https://www.youtube.com/embed/NTa6Xbzfq1U',
             file: 'src/partituras/SuperMarioBros-MainTheme.pdf',
-            description: 'A música tema do Super Mario Bros. é uma das mais reconhecíveis e icônicas da história dos videogames. Composta por Koji Kondo, um renomado compositor japonês conhecido por suas contribuições musicais para diversos jogos da Nintendo, a música tema do Super Mario Bros. foi criada para o jogo de mesmo nome, lançado pela Nintendo em 1985 para o console NES (Nintendo Entertainment System)'
+            description: 'Composta por Koji Kondo, a trilha sonora principal de Super Mario Bros., também conhecida como "Ground Theme", é uma das músicas de videogame mais icônicas e reconhecíveis de todos os tempos. Lançada em 1985 com o jogo, a música apresenta um ritmo alegre e contagiante que reflete a natureza divertida e acessível do jogo. A melodia, que combina influências de jazz e música eletrônica, é caracterizada por sua simplicidade e eficácia. Utilizando uma estrutura de quatro compassos repetidos, Kondo criou uma peça que é fácil de lembrar e impossível de esquecer. A instrumentação 8-bit adiciona um charme retro que continua a ressoar com jogadores de todas as idades. Além disso, o tema principal evoluiu ao longo dos anos, recebendo arranjos orquestrais e remixes que mantêm sua relevância e frescor na cultura dos videogames.'
         },
         BreathoftheWild: {
             name: "The Legend of Zelda: Breath of the Wild - Kass' Theme",
@@ -360,11 +392,12 @@ document.addEventListener('DOMContentLoaded', function() {
             difficulty: '<font color="#322E33"><b>Nível de dificuldade:</b> </font> Intermediário',
             pages: '<font color="#322E33"><b>Páginas:</b></font> 2',
             duration: '<font color="#322E33"><b>Duração:</b></font> 01:45',
+            format: '<font color="#322E33"><b>Formato: </b></font> PDF',
             key: '<font color="#322E33"><b>Tonalidade:</b></font> C, Am',
             genre: '<font color="#322E33"><b>Gênero:</b></font> Trilha sonora',
-            link: 'https://youtu.be/XrvZrBCR6-A?si=V9yGGKpbS5WLBt2o',
+            link: 'https://www.youtube.com/embed/XrvZrBCR6-A',
             file: 'src/partituras/TheLegendofZelda-Breathofthewild-KassTheme.pdf',
-            description: "Kass's Theme é uma música memorável da série de jogos 'The Legend of Zelda', composta para 'Breath of the Wild'. A faixa é reconhecida por sua melodia suave e encantadora, tocada no acordeão por Kass, um bardo da raça Rito. Kass viaja por Hyrule, compartilhando canções e lendas que ajudam o protagonista, Link, em sua jornada."
+            description: "Kass' Theme é uma das peças mais encantadoras de The Legend of Zelda: Breath of the Wild, composta por Manaka Kataoka e Yasuaki Iwata. Kass, um menestrel Rito, toca esta melodia em seu acordeão, e a música é frequentemente ouvida enquanto ele compartilha antigas lendas e histórias com Link. A melodia é rica e melancólica, utilizando o som distinto do acordeão para criar uma sensação de nostalgia e aventura. O tema de Kass é tanto uma canção de viagem quanto uma homenagem às tradições orais de Hyrule, refletindo a importância da música e da narrativa na cultura do jogo. A simplicidade da melodia, combinada com a profundidade emocional do acordeão, faz de Kass' Theme uma peça memorável que ressoa com os jogadores enquanto eles exploram o vasto mundo de Breath of the Wild."
         },
         TheLegendofZeldaMainTheme: {
             name: 'The Legend of Zelda - Main Theme',
@@ -375,11 +408,12 @@ document.addEventListener('DOMContentLoaded', function() {
             difficulty: '<font color="#322E33"><b>Nível de dificuldade:</b> </font> Iniciante',
             pages: '<font color="#322E33"><b>Páginas:</b></font> 1',
             duration: '<font color="#322E33"><b>Duração:</b></font> 01:21',
+            format: '<font color="#322E33"><b>Formato: </b></font> PDF',
             key: '<font color="#322E33"><b>Tonalidade:</b></font> C, Am',
             genre: '<font color="#322E33"><b>Gênero:</b></font> Trilha sonora',
-            link: 'https://youtu.be/cGufy1PAeTU?si=hwElRPtRBTHHHcHR',
+            link: 'https://www.youtube.com/embed/cGufy1PAeTU',
             file: 'src/partituras/TheLegendofZelda-MainTheme.pdf',
-            description: 'O tema principal de Zelda, também conhecido como "Zelda Main Theme" ou "The Legend of Zelda Theme", é uma composição icônica que serve como tema principal e leitmotiv recorrente ao longo da série de jogos "The Legend of Zelda". Composta por Koji Kondo, esta música é uma das mais reconhecíveis e queridas pelos fãs de videogames em todo o mundo.'
+            description: 'O tema principal de The Legend of Zelda, composto por Koji Kondo, é uma obra-prima musical que se tornou sinônimo de aventura épica e heroísmo. Desde sua estreia no jogo original em 1986, esta melodia tem sido a pedra angular da série Zelda. A composição começa com uma fanfarra triunfante, seguida por uma melodia que é ao mesmo tempo cativante e inspiradora. Os arranjos orquestrais subsequentes trouxeram ainda mais grandiosidade à peça, utilizando uma ampla gama de instrumentos, desde trompas poderosas até cordas elegantes, para criar uma paisagem sonora rica e dinâmica. O tema principal encapsula a essência das jornadas de Link, refletindo tanto a coragem do herói quanto a vastidão e mistério do reino de Hyrule. Sua estrutura musical é cuidadosamente equilibrada, com variações rítmicas e melódicas que mantêm o ouvinte engajado do início ao fim.'
         },
         ZeldasLullaby: {
             name: "The Legend of Zelda: Ocarina of Time - Zelda's Lullaby",
@@ -390,11 +424,12 @@ document.addEventListener('DOMContentLoaded', function() {
             difficulty: '<font color="#322E33"><b>Nível de dificuldade:</b> </font> Iniciante',
             pages: '<font color="#322E33"><b>Páginas:</b></font> 1',
             duration: '<font color="#322E33"><b>Duração:</b></font> 00:43',
+            format: '<font color="#322E33"><b>Formato: </b></font> PDF',
             key: '<font color="#322E33"><b>Tonalidade:</b></font> G, Em',
             genre: '<font color="#322E33"><b>Gênero:</b></font> Trilha sonora',
-            link: 'https://youtu.be/EPhfbtjqWM8?si=3fYc5x5iTLLMAbIQ',
+            link: 'https://www.youtube.com/embed/EPhfbtjqWM8',
             file: 'src/partituras/TheLegendofZelda-ZeldasLullaby(OcarinaofTime).pdf',
-            description: "The Legend of Zelda: Great Lullaby é uma música icônica e comovente da popular série de jogos <i>The Legend of Zelda</i> da Nintendo. Esta melodia, frequentemente referida como <i>Zelda's Lullaby</i>, é uma peça central no universo musical da franquia, composta por Koji Kondo. A canção serve como tema principal da Princesa Zelda, caracterizando-se por suas notas suaves e uma sensação de serenidade que captura a essência do personagem e do reino de Hyrule."
+            description: "Zelda's Lullaby é uma das composições mais memoráveis e emotivas de The Legend of Zelda: Ocarina of Time, também criada por Koji Kondo. Esta peça é frequentemente associada à Princesa Zelda e serve como um leitmotiv recorrente ao longo do jogo. Tocada em um arpejo de harpa, a melodia é ao mesmo tempo simples e profundamente evocativa, capturando a essência da realeza, mistério e beleza do personagem de Zelda. A música é usada em momentos chave do jogo, como ao encontrar a Princesa Zelda ou ao acessar áreas secretas, reforçando a conexão emocional do jogador com a história e os personagens. A harpa, com seu som etéreo e angelical, cria uma atmosfera de magia e nostalgia, tornando Zelda's Lullaby uma peça central na trilha sonora de Ocarina of Time."
         },
         Home: {
             name: 'Undertale - Home',
@@ -405,9 +440,10 @@ document.addEventListener('DOMContentLoaded', function() {
             difficulty: '<font color="#322E33"><b>Nível de dificuldade:</b> </font> Iniciante',
             pages: '<font color="#322E33"><b>Páginas:</b></font> 2',
             duration: '<font color="#322E33"><b>Duração:</b></font> 04:01',
+            format: '<font color="#322E33"><b>Formato: </b></font> PDF',
             key: '<font color="#322E33"><b>Tonalidade:</b></font> A, F#m',
             genre: '<font color="#322E33"><b>Gênero:</b></font> Trilha sonora',
-            link: 'https://youtu.be/5_E_y1AWAfc?si=aydbOL0-fihb4nGK',
+            link: 'https://www.youtube.com/embed/5_E_y1AWAfc',
             file: 'src/partituras/Undertale-Home.pdf',
             description: '"Undertale - Home" é uma faixa musical do jogo Undertale, composta por Toby Fox. Essa música é notável por sua melodia suave e emotiva, frequentemente associada a momentos de calma e reflexão dentro do jogo. Com instrumentação simples, como piano e sintetizadores suaves, "Home" evoca uma sensação de nostalgia e conforto, transmitindo uma atmosfera acolhedora ao jogador. É uma peça que complementa a narrativa do jogo, adicionando profundidade emocional às interações do protagonista com os personagens e ambientes de Undertale.'
         },
@@ -420,11 +456,12 @@ document.addEventListener('DOMContentLoaded', function() {
             difficulty: '<font color="#322E33"><b>Nível de dificuldade:</b> </font> Intermediário',
             pages: '<font color="#322E33"><b>Páginas:</b></font> 4',
             duration: '<font color="#322E33"><b>Duração:</b></font> 01:45',
+            format: '<font color="#322E33"><b>Formato: </b></font> PDF',
             key: '<font color="#322E33"><b>Tonalidade:</b></font> Ab, Fm',
             genre: '<font color="#322E33"><b>Gênero:</b></font> Trilha sonora',
-            link: 'https://youtu.be/YZ3XjVVNagU?si=uPP2tf4scyCrq4Tk',
+            link: 'https://www.youtube.com/embed/YZ3XjVVNagU',
             file: 'src/partituras/Undertale-SpiderDance.pdf',
-            description: 'Spider Dance é uma música icônica do jogo "Undertale", composta por Toby Fox. A faixa é conhecida por seu ritmo animado e enérgico, tocada durante a batalha contra Muffet, uma aranha antropomórfica que tenta extorquir o protagonista, Frisk.'
+            description: 'Spider Dance, composta por Toby Fox, é uma faixa vibrante e dinâmica que toca durante a batalha contra Muffet em Undertale. Esta música é rápida e enérgica, combinando elementos de jazz e música eletrônica para criar uma atmosfera frenética e divertida. Os ritmos complexos e a melodia cativante refletem a personalidade peculiar de Muffet e a intensidade da batalha. A trilha utiliza uma variedade de instrumentos, incluindo sintetizadores e percussão, para criar uma experiência auditiva rica e envolvente. "Spider Dance" é uma peça que se destaca por sua originalidade e energia, capturando perfeitamente o espírito único de Undertale.'
         }
     };
 
@@ -438,17 +475,21 @@ document.addEventListener('DOMContentLoaded', function() {
             <li>${product.instrument}</li>
             <li>${product.difficulty}</li>
             <li>${product.pages}</li>
+            <li>${product.format}</li>
             <li>${product.duration}</li>
             <li>${product.key}</li>
             <li>${product.genre}</li>
-            <li>Link (YouTube): <a href="${product.link}" target="blank">${product.link}</a></li>
             <center><li><a href="${product.file}" class="button" download="${product.name}">Download</a></li></center>
 
+        `;
+        document.getElementById('iframe').innerHTML = `
+        <center><iframe src="${product.link}"></iframe></center>
         `;
         document.getElementById('image').innerHTML = `
         <img src ="${product.image}" alt="${product.name}"></img>
         `;
         document.getElementById('description').innerHTML = `
+        <h2>Descrição:</h2>
         <p>${product.description}</p>
         `;
     } else {
