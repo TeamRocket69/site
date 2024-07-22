@@ -7,8 +7,9 @@ body {
 }
 
 .logo {
-    width: 100px;
-    height: 50px;
+    margin-top: 10px;
+    width: 450px;
+    height: 180px;
     justify-content: flex-start;
     align-items: flex-start;
 }
