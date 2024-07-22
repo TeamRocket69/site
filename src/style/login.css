@@ -14,9 +14,9 @@ body {
 }
 .loginlogo {
     height: 150px;
-    margin-bottom: 50px;
 }
 .login-container {
+    margin-top: 50px;
     background: #fff;
     padding: 30px;
     padding-right: 50px;
